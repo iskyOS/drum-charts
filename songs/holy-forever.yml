@@ -14,7 +14,7 @@ sections:
   - name: V1
     level: 1
     cue: IN – swells, kick 1
-    detail: Swells, kick on 1.
+    detail: Swells, kick 1.
   - name: Pre-Chorus
     level: 2
     cue: Floor tom pulse

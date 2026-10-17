@@ -25,6 +25,7 @@ ENTRY_KEYS = {"song", "variant", "leader", "key", "note"}
 # multi-word standard terms from docs/chart-style.md
 TERMS = ["4 on floor", "crash on 1", "ring on 4", "HIT 1", "floor tom 8ths", "triplet kick",
          "open hats", "ride 8ths", "hats 8ths", "hats 16ths"]
+KICK_RE = re.compile(r"kick\s+\d[ea&]?(?:\s*·\s*\d[ea&]?)*", re.I)
 LEVEL_RE = re.compile(r"^([0-5])(?:\s*>\s*([0-5]))?$")
 
 errors = []
@@ -85,6 +86,7 @@ def section(where, s):
     if s.get("hot"):
         out["hot"] = 1
     cue = out.get("c", "")
+    cue = KICK_RE.sub("T", cue)  # a whole kick count counts as one word
     for term in TERMS:  # a standard term counts as one word
         cue = re.sub(re.escape(term), "T", cue, flags=re.I)
     words = len([w for w in re.split(r"[\s,–\-+/→]+", cue) if re.search(r"\w", w)])

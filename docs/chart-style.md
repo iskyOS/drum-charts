@@ -46,4 +46,15 @@ Structure:
 - **×2**: repeats – use the section's `x:` field, not the cue
 - **p1 / p2**: pass 1 / pass 2, when a part changes between passes
 
-`python3 scripts/build.py` warns (without failing) when a cue runs past 4 words.
+## Kick patterns (count notation)
+
+- Write kick patterns as the beats themselves, using 16th-note counting (1 e & a): `kick 1 · 2a · 3&`
+- A beat number alone means the downbeat. Separate hits with `·`.
+- If the pattern isn't every bar, add it after the count: `kick 3 · 4 · 1, end of every 2nd bar`
+- Convert plain words to this format: "kick on 1, the 'a' of 2 and the '&' of 3" → `kick 1 · 2a · 3&`
+- Counts are short enough for the stage cue. Use them there when the kick pattern is what changes
+  in that section.
+- Common patterns: `kick 1 · 3&` · `kick 1 · 2a · 3&` · `kick 3 · 4 · 1`
+
+`python3 scripts/build.py` warns (without failing) when a cue runs past 4 words. A standard term or a whole kick count
+(`kick 1 · 2a · 3&`) counts as one word.
