@@ -1,11 +1,12 @@
 # How to write each line of a drum chart section
 
 Each section has two text layers. Alex gives the notes in plain words; whoever edits the chart
-writes both layers.
+writes both layers, cleaning the notes up for whatever reads easiest.
 
 ## 1. Stage cue – `cue` (shown in Stage mode, read mid-song)
 
-- 2–4 words, readable in about half a second.
+- Short enough to fit on one line on the phone (roughly 25 characters) and be read in about half a
+  second. Usually 2–4 words, but that's a guide, not a rule.
 - Say **what changes** in this section, not the whole groove.
 - Exception: the first section where drums come in states the groove – there's nothing yet to
   change from.
@@ -14,7 +15,7 @@ writes both layers.
 
 ## 2. Longhand – `detail` (Rehearse / Notes mode)
 
-- Alex's notes, lightly cleaned up, in Alex's own words. Don't rewrite them in your voice.
+- Alex's notes, cleaned up and reworded freely for whatever is easiest to read.
 - Keep the specifics and the why (which pass, what drops out, what to watch for).
 - Swap in the standard terms where the wording means the same thing
   (e.g. "quarter note kicks" → "4 on floor").
@@ -56,5 +57,4 @@ Structure:
   in that section.
 - Common patterns: `kick 1 · 3&` · `kick 1 · 2a · 3&` · `kick 3 · 4 · 1`
 
-`python3 scripts/build.py` warns (without failing) when a cue runs past 4 words. A standard term or a whole kick count
-(`kick 1 · 2a · 3&`) counts as one word.
+`python3 scripts/build.py` warns (without failing) when a cue is likely too long for one line.

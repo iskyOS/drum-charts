@@ -22,10 +22,7 @@ VARIANT_KEYS = {"title", "key", "bpm", "time", "length", "status", "note", "sect
 SECTION_KEYS = {"name", "x", "level", "cue", "detail", "hot"}
 SET_KEYS = {"date", "title", "note", "songs"}
 ENTRY_KEYS = {"song", "variant", "leader", "key", "note"}
-# multi-word standard terms from docs/chart-style.md
-TERMS = ["4 on floor", "crash on 1", "ring on 4", "HIT 1", "floor tom 8ths", "triplet kick",
-         "open hats", "ride 8ths", "hats 8ths", "hats 16ths"]
-KICK_RE = re.compile(r"kick\s+\d[ea&]?(?:\s*·\s*\d[ea&]?)*", re.I)
+CUE_MAX = 28  # characters that reliably fit on one line of the cue column on an iPhone
 LEVEL_RE = re.compile(r"^([0-5])(?:\s*>\s*([0-5]))?$")
 
 errors = []
@@ -85,13 +82,8 @@ def section(where, s):
             out[dst] = str(s[src]).strip()
     if s.get("hot"):
         out["hot"] = 1
-    cue = out.get("c", "")
-    cue = KICK_RE.sub("T", cue)  # a whole kick count counts as one word
-    for term in TERMS:  # a standard term counts as one word
-        cue = re.sub(re.escape(term), "T", cue, flags=re.I)
-    words = len([w for w in re.split(r"[\s,–\-+/→]+", cue) if re.search(r"\w", w)])
-    if words > 4:
-        warnings.append(f"{where}: cue is {words} words – stage cues should be 2–4 (docs/chart-style.md)")
+    if len(out.get("c", "")) > CUE_MAX:
+        warnings.append(f"{where}: cue is {len(out['c'])} characters – may not fit on one line on the phone (docs/chart-style.md)")
     return out
 
 
