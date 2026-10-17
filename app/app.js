@@ -88,6 +88,19 @@
     return `<div class="lvl"><i style="${style}"></i></div>`;
   };
 
+  // Keep a number with the word before it, and keep a kick count ("kick 1 · 2a · 3&") together so a
+  // wrap moves the whole count to the next line; a count too long for a line breaks only after a "·".
+  const KICK = /kick \d[ea&]?(?: · \d[ea&]?)*/gi;
+  const glue = (t) => esc(t).replace(/ · /g, "\u00a0· ").replace(/([^·\s]) (\d)/g, "$1\u00a0$2");
+  const cueHtml = (c) => {
+    let out = "", last = 0;
+    for (const m of c.matchAll(KICK)) {
+      out += glue(c.slice(last, m.index)) + `<span class="kc">${glue(m[0])}</span>`;
+      last = m.index + m[0].length;
+    }
+    return out + glue(c.slice(last));
+  };
+
   function renderStage() {
     const s = list[i];
     const stage = $("stage");
@@ -111,7 +124,7 @@
       return `<li class="${cls.filter(Boolean).join(" ")}" data-k="${k}">
         ${lvlBar(r)}
         <div class="nm">${esc(r.n)}${r.x ? `<span class="x">×${r.x}</span>` : ""}</div>
-        <div class="cue">${esc(r.c || "").replace(/ · /g, "\u00a0· ").replace(/([^·\s]) (\d)/g, "$1\u00a0$2")}</div>
+        <div class="cue">${cueHtml(r.c || "")}</div>
         ${r.d ? `<div class="d">${esc(r.d)}</div>` : ""}
       </li>`;
     }).join("");

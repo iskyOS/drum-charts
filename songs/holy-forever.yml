@@ -51,7 +51,7 @@ sections:
     hot: true
   - name: Chorus 1 + 2
     level: 5
-    cue: Kick 1e · 1a · 2& · 3e · 3&
+    cue: Hats 8ths, kick 1e · 1a · 2& · 3e · 3&
     detail: Hats 8ths, backbeat, kick 1e · 1a · 2& · 3e · 3&. Same pattern through both choruses.
   - name: Tag
     level: 5
