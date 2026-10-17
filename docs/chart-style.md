@@ -14,7 +14,7 @@ writes both layers.
 
 ## 2. Longhand – `detail` (Rehearse / Notes mode)
 
-- Alex's notes, lightly cleaned up, in his own words. Don't rewrite them in your voice.
+- Alex's notes, lightly cleaned up, in Alex's own words. Don't rewrite them in your voice.
 - Keep the specifics and the why (which pass, what drops out, what to watch for).
 - Swap in the standard terms where the wording means the same thing
   (e.g. "quarter note kicks" → "4 on floor").
