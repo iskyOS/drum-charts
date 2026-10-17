@@ -1,0 +1,78 @@
+title: I Speak Jesus
+artist: Charity Gayle
+key: D
+bpm: 74
+length: "6:00"
+note: "Steph: once we drop to the low V1 near the end, it stays down – do NOT build back up."
+
+sections:
+  - name: Intro
+    level: 0
+    cue: Out – keys / pad
+  - name: V1
+    level: 1
+    cue: Kick on 1, cross-stick on 3
+    detail: Stay out of the way.
+  - name: V2
+    level: 2
+    cue: Add hats, kick 1 & 3
+  - name: Chorus
+    level: 3
+    cue: Snare backbeat in, crash on 1
+    detail: First real groove.
+  - name: V3
+    level: 2
+    cue: Back down, keep the pulse
+  - name: Chorus
+    x: 2
+    level: 4
+    cue: Lift – ride on pass 2
+  - name: Bridge
+    x: 2
+    level: 4>5
+    cue: "'Shout Jesus' – toms → full"
+    detail: Pass 1 tom build, pass 2 all in.
+  - name: Chorus
+    x: 2
+    level: 5
+    cue: Peak
+  - name: Low V1
+    level: 1
+    cue: Drop way down – do NOT build back
+    detail: Once we come down here, it stays down through the end.
+    hot: true
+  - name: Interlude
+    x: 2
+    level: 1
+    cue: Stay low
+    hot: true
+  - name: Bridge
+    x: 3
+    level: 1
+    cue: Stay low – no build
+    detail: Hold back even as the bridge repeats.
+    hot: true
+  - name: End
+    level: 0
+    cue: Out – stay down
+
+variants:
+  reprise:
+    length: "3:00"
+    note: "Steph: 2× big bridges, then 2× big chorus, end big on the 1."
+    sections:
+      - name: Bridge
+        x: 2
+        level: 5
+        cue: "BIG from the top – 'Shout Jesus'"
+        detail: No build-in. Both passes full.
+        hot: true
+      - name: Chorus
+        x: 2
+        level: 5
+        cue: Ride + crashes
+        detail: Keep it up both passes.
+      - name: End
+        level: 5
+        cue: End big on the 1
+        hot: true

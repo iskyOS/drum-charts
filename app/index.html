@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Drum Charts</title>
+<meta name="theme-color" content="#07080b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Charts">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>/*@CSS*/</style>
+</head>
+<body>
+<div id="app">
+  <header class="bar">
+    <button id="menu-btn" class="iconbtn" aria-label="Sets and songs">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <div id="setname" class="setname"></div>
+    <nav id="strip" class="strip" aria-label="Songs in this set"></nav>
+    <button id="mode-btn" class="pill" aria-pressed="false" title="Show full notes (scrolls)">Notes</button>
+  </header>
+
+  <main id="stage" class="stage"></main>
+
+  <footer class="foot">
+    <button id="prev" class="prev" aria-label="Previous song"></button>
+    <button id="next" class="next" aria-label="Next song"></button>
+  </footer>
+</div>
+
+<div id="menu" class="menu" hidden>
+  <div class="menu-head">
+    <h2>Drum Charts</h2>
+    <button id="menu-close" class="iconbtn" aria-label="Close">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="menu-body">
+    <h3>Sets</h3>
+    <ul id="set-list" class="list"></ul>
+    <h3>Build a set <small>tap songs in order</small></h3>
+    <ul id="song-list" class="list picks"></ul>
+    <div class="build-actions">
+      <button id="build-clear" class="pill">Clear</button>
+      <button id="build-go" class="go" disabled>Open set</button>
+    </div>
+    <p id="status" class="status"></p>
+  </div>
+</div>
+
+<script>/*@DATA*/</script>
+<script>/*@JS*/</script>
+</body>
+</html>
