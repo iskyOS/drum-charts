@@ -1,6 +1,6 @@
 // Offline support for church Wi-Fi: always try the network for the page (so new charts show up),
 // fall back to the last copy when offline. Fonts are cached on first use.
-const CACHE = "charts-v2";
+const CACHE = "charts-v3";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "manifest.webmanifest", "icon-180.png"])));
