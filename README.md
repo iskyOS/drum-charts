@@ -43,6 +43,8 @@ variants:               # optional alternate arrangements of the same song
     sections: [...]     # anything not given is taken from the main song
 ```
 
+How to word `cue` and `detail` (and the standard terms to use): [docs/chart-style.md](docs/chart-style.md).
+
 ## Sets – `sets/<date>.yml`
 
 ```yaml

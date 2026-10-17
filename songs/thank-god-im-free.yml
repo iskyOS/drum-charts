@@ -8,50 +8,54 @@ status: draft
 sections:
   - name: Intro
     level: 3
-    cue: Hats 8ths + four-on-the-floor kick
+    cue: Hats 8ths, 4 on floor
     detail: Set the dance feel. Fill into V1.
   - name: V1 · V2
     level: 2
-    cue: 4-floor, rim 2 & 4, closed hats
-    detail: V2 adds a little – open hat into the turns.
+    cue: ↓ rims, 4 on floor
+    detail: 4 on floor, rims, closed hats. V2 adds a little – open hats into the turns.
   - name: Chorus
     level: 4
-    cue: Full – snare 2 & 4, open hats
-    detail: Crash at the top of each 4-bar phrase.
+    cue: Backbeat, open hats
+    detail: Crash on the top of each 4-bar phrase.
   - name: Post
     level: 4
-    cue: "'I'm free' – keep driving"
+    cue: Keep driving
+    detail: "'I'm free' – keep driving."
   - name: Turn
     level: 3
-    cue: Small fill, pull back a notch
+    cue: Fill, ↓ pull back
+    detail: Small fill, pull back a notch.
   - name: V3
     level: 3
-    cue: Snare backbeat in, 16th hats
+    cue: Backbeat, hats 16ths
   - name: Chorus · Post
     level: 5
-    cue: Big – ride + crashes
+    cue: Ride, crashes
+    detail: Big – ride and crashes.
   - name: Bridge
     x: 3
     level: 2>4
-    cue: Build pass over pass
-    detail: Start pared down. Snare 8ths into the end of pass 3.
+    cue: ↑ build p1 → p3
+    detail: Start pared down. Snare 8ths into the end of p3.
     hot: true
   - name: Refrain
     level: 5
-    cue: All in
+    cue: Full
+    detail: All in.
   - name: Chorus · Post
     level: 5
-    cue: Big
+    cue: Ride, crashes
   - name: Bridge
     x: 2
     level: 3>4
-    cue: Second build, shorter
+    cue: ↑ build, shorter
   - name: Refrain → Post
     x: 2
     level: 5
     cue: Peak – ride it out
   - name: End
     level: 3
-    cue: Watch the leader – hit & ring
-    detail: Still to confirm – big on a 1, or ring out?
+    cue: Watch – HIT 1?
+    detail: Watch the leader. Still to confirm – HIT 1, or ring out?
     hot: true

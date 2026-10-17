@@ -8,5 +8,5 @@ sections:
   - name: V1
     x: 2
     level: 0
-    cue: Drums out – acoustic only
-    detail: Sit tight and get ready for the next song.
+    cue: OUT
+    detail: Acoustic only. Sit tight and get ready for the next song.

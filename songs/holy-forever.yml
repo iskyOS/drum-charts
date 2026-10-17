@@ -9,42 +9,47 @@ note: "Adam: one big tag only."
 sections:
   - name: Intro
     level: 0
-    cue: Out – pad / keys
+    cue: OUT
+    detail: Pad / keys.
   - name: V1
     level: 1
-    cue: Cymbal swells, kick on 1
+    cue: IN – swells, kick 1
+    detail: Swells, kick on 1.
   - name: Pre-Chorus
     level: 2
     cue: Floor tom pulse
   - name: Chorus 1
     level: 3
-    cue: Half-time groove, crash on 1
+    cue: Half-time, crash on 1
   - name: Turn
     level: 2
     cue: Hold
   - name: V2
     level: 2
-    cue: Hats + cross-stick
+    cue: Hats, rims
   - name: Tag
     level: 3
     cue: "'Holy forever' tag"
   - name: Chorus 1 · 2
     level: 4
-    cue: Lift – ride on C2
+    cue: ↑ ride on C2
+    detail: Lift – ride on chorus 2.
   - name: Pre-Chorus
     x: 2
     level: 3>4
-    cue: Pass 1 toms → pass 2 build
+    cue: Toms p1, ↑ build p2
     detail: Big build into the chorus.
     hot: true
   - name: Chorus 1 · 2
     level: 5
-    cue: Full – crashes
+    cue: Full, crashes
   - name: Tag
     level: 5
     cue: ONE big tag
+    detail: "Adam: one big tag only."
     hot: true
   - name: End
     level: 5
-    cue: End big on a 1
+    cue: HIT 1
+    detail: End big on a 1.
     hot: true

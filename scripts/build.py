@@ -22,9 +22,13 @@ VARIANT_KEYS = {"title", "key", "bpm", "time", "length", "status", "note", "sect
 SECTION_KEYS = {"name", "x", "level", "cue", "detail", "hot"}
 SET_KEYS = {"date", "title", "note", "songs"}
 ENTRY_KEYS = {"song", "variant", "leader", "key", "note"}
+# multi-word standard terms from docs/chart-style.md
+TERMS = ["4 on floor", "crash on 1", "ring on 4", "HIT 1", "floor tom 8ths", "triplet kick",
+         "open hats", "ride 8ths", "hats 8ths", "hats 16ths"]
 LEVEL_RE = re.compile(r"^([0-5])(?:\s*>\s*([0-5]))?$")
 
 errors = []
+warnings = []
 
 
 def err(where, msg):
@@ -80,6 +84,12 @@ def section(where, s):
             out[dst] = str(s[src]).strip()
     if s.get("hot"):
         out["hot"] = 1
+    cue = out.get("c", "")
+    for term in TERMS:  # a standard term counts as one word
+        cue = re.sub(re.escape(term), "T", cue, flags=re.I)
+    words = len([w for w in re.split(r"[\s,–\-+/→]+", cue) if re.search(r"\w", w)])
+    if words > 4:
+        warnings.append(f"{where}: cue is {words} words – stage cues should be 2–4 (docs/chart-style.md)")
     return out
 
 
@@ -187,6 +197,8 @@ def build():
     if errors:
         print("Chart data has problems:\n  " + "\n  ".join(errors), file=sys.stderr)
         sys.exit(1)
+    for w in warnings:
+        print(f"warning: {w}", file=sys.stderr)
     print(f"OK – {len(songs)} songs, {len(sets)} sets")
     if "--check" in sys.argv:
         return
