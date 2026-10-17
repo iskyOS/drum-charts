@@ -32,11 +32,17 @@ sections:
   - name: Chorus · Post
     level: 5
     cue: Big – ride and crashes
-  - name: Bridge
-    x: 3
-    level: 2>4
-    cue: Build a little each pass
-    detail: Start pared down and build each time through. Snare 8ths at the end of pass 3.
+  - name: Bridge 1
+    level: 2
+    cue: "Strip back: rims, 4 on floor"
+    detail: Start pared down; the bridge builds a little each time through.
+  - name: Bridge 2
+    level: 3
+    cue: Backbeat, hats 8ths
+  - name: Bridge 3
+    level: 3>4
+    cue: Open hats, snare 8ths at end
+    detail: Snare 8ths through the end of this pass to launch the refrain.
     hot: true
   - name: Refrain
     level: 5
@@ -44,10 +50,13 @@ sections:
   - name: Chorus · Post
     level: 5
     cue: Big – ride and crashes
-  - name: Bridge
-    x: 2
+  - name: Bridge 1
+    level: 3
+    cue: Backbeat, hats 8ths
+    detail: Second build – shorter than the first.
+  - name: Bridge 2
     level: 3>4
-    cue: Build again, shorter
+    cue: Open hats, fill into refrain
   - name: Refrain + Post
     x: 2
     level: 5

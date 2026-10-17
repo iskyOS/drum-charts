@@ -31,10 +31,12 @@ sections:
   - name: Chorus 1 · 2
     level: 4
     cue: Bigger – ride on chorus 2
-  - name: Pre-Chorus
-    x: 2
+  - name: Pre-Chorus 1
+    level: 3
+    cue: Toms
+  - name: Pre-Chorus 2
     level: 3>4
-    cue: Toms pass 1, build pass 2
+    cue: Build into the chorus
     detail: Big build into the chorus.
     hot: true
   - name: Chorus 1 · 2

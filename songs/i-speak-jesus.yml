@@ -28,11 +28,13 @@ sections:
     x: 2
     level: 4
     cue: Bigger – ride on pass 2
-  - name: Bridge
-    x: 2
-    level: 4>5
-    cue: Toms pass 1, full pass 2
-    detail: "'Shout Jesus' – build on the toms the first time, everything in the second time."
+  - name: Bridge 1
+    level: 3>4
+    cue: Build on the toms
+    detail: "'Shout Jesus' – tom build the first time through."
+  - name: Bridge 2
+    level: 5
+    cue: Full – everything in
   - name: Chorus
     x: 2
     level: 5

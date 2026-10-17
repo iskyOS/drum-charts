@@ -46,8 +46,10 @@ Moves:
 - **fill**: fill into the next section
 
 Structure:
-- **×2**: repeats – use the section's `x:` field, not the cue
-- **pass 1 / pass 2**: when a part changes between passes
+- **×2**: only when every pass is played exactly the same – use the section's `x:` field.
+- When passes play differently (a bridge that builds, a pre-chorus that's toms then a build), give
+  each pass its own row – `Bridge 1`, `Bridge 2`, `Bridge 3` – with what to play that time through.
+  Never squeeze several passes into one "Bridge ×3" row.
 
 ## Kick patterns (count notation)
 
