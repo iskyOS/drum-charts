@@ -11,6 +11,7 @@
   --hot: #ff4fc8;
   --hotbg: rgba(255, 79, 200, .14);
   --week: #ffb020;
+  --crash: #5fd3ff;
   --l0: #3a4150;
   --l1: #4c8dff;
   --l2: #22c27a;
@@ -117,6 +118,9 @@ button.chip.beat { background: var(--ink); color: var(--bg); }
   transition: opacity .15s;
 }
 .row.alt { background: var(--panel); }
+.rows.has-q .row { grid-template-columns: min(3em, 52px) min(6.8em, 132px) 1fr min(1.5em, 26px); }
+.qc svg { display: block; height: 1.15em; width: auto; margin-left: auto; fill: none; stroke: var(--crash); stroke-width: 2; stroke-linecap: round; }
+.qc svg .bell { fill: var(--crash); }
 .part {
   display: flex; align-items: center; gap: .5em; margin-top: .3em;
   font-size: .78em; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ink2);

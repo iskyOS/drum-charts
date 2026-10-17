@@ -36,6 +36,7 @@ sections:
     detail: Big build into the chorus.   # longer note, shown only in Notes mode
     hot: true           # highlight: a hit, a drop, an ending – something not to miss
     part: Act 2 · Big build   # optional – starts a labelled block here, to break up long songs
+    crashes: true       # played with quarter crashes – shows a cymbal icon at the end of the row
 
 variants:               # optional alternate arrangements of the same song
   reprise:

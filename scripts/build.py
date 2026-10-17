@@ -19,7 +19,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 SONG_KEYS = {"title", "artist", "key", "bpm", "time", "length", "status", "note", "sections", "variants"}
 VARIANT_KEYS = {"title", "key", "bpm", "time", "length", "status", "note", "sections"}
-SECTION_KEYS = {"name", "x", "level", "cue", "detail", "hot", "part"}
+SECTION_KEYS = {"name", "x", "level", "cue", "detail", "hot", "part", "crashes"}
 SET_KEYS = {"date", "title", "note", "songs"}
 ENTRY_KEYS = {"song", "variant", "leader", "key", "note"}
 CUE_MAX = 30  # characters that reliably fit on one line of the cue column on an iPhone
@@ -82,6 +82,8 @@ def section(where, s):
             out[dst] = str(s[src]).strip()
     if s.get("hot"):
         out["hot"] = 1
+    if s.get("crashes"):
+        out["q"] = 1
     if s.get("part"):
         out["p"] = str(s["part"]).strip()
     if len(out.get("c", "")) > CUE_MAX:

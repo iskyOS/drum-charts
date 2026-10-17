@@ -79,6 +79,7 @@ variants:
       - name: Bridge 1
         level: 4
         cue: 4 on floor, quarter crashes
+        crashes: true
         detail: Big from the top. 4 on floor and quarter crashes (from the build-back Bridge 2).
         hot: true
       - name: Bridge 2

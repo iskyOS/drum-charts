@@ -101,6 +101,9 @@
     return out + glue(c.slice(last));
   };
 
+  // marks a section played with quarter crashes (`crashes: true`), in a fixed spot at the end of the row
+  const CYMBAL = `<svg viewBox="1 5 22 18" aria-label="Quarter crashes"><ellipse cx="12" cy="9" rx="10" ry="3.2"/><ellipse cx="12" cy="7.6" rx="2.4" ry="1.2" class="bell"/><path d="M12 12.2V22M8.5 22h7"/></svg>`;
+
   function renderStage() {
     const s = list[i];
     const stage = $("stage");
@@ -121,6 +124,7 @@
     ].filter(Boolean).join("");
     // a section with `part` starts a new labelled block (e.g. "Act 2 · Big build"); row striping restarts per block
     let stripe = 0;
+    const hasQ = s.s.some((r) => r.q);
     const rows = s.s.map((r, k) => {
       if (r.p) stripe = 0;
       const cls = [`row`, `l${Math.max(r.l, r.l2 ?? 0)}`, stripe++ % 2 && "alt", r.hot && "hot", now >= 0 && k < now && "past", k === now && "now"];
@@ -129,6 +133,7 @@
         ${lvlBar(r)}
         <div class="nm">${esc(r.n)}${r.x ? `<span class="x">×${r.x}</span>` : ""}</div>
         <div class="cue">${cueHtml(r.c || "")}</div>
+        ${hasQ ? `<div class="qc">${r.q ? CYMBAL : ""}</div>` : ""}
         ${r.d ? `<div class="d">${esc(r.d)}</div>` : ""}
       </li>`;
     }).join("");
@@ -142,7 +147,7 @@
         </div>
       </div>
       ${notes ? `<div class="notes">${notes}</div>` : ""}
-      <ol class="rows">${rows}</ol>`;
+      <ol class="rows${hasQ ? " has-q" : ""}">${rows}</ol>`;
   }
 
   function renderChrome() {

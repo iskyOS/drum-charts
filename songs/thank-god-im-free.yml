@@ -9,6 +9,7 @@ sections:
     part: Act 1 · Opener
     level: 4
     cue: Quarter crashes
+    crashes: true
     detail: Quarter crashes through the intro.
   - name: V1
     level: 2
@@ -29,6 +30,7 @@ sections:
   - name: Turn
     level: 3
     cue: Quarter crashes, then fill
+    crashes: true
     detail: Quarter crashes, then a fill into V3.
   - name: V3
     part: Act 2 · Big build
@@ -58,6 +60,7 @@ sections:
   - name: Refrain
     level: 5
     cue: Quarter crashes, triplet kick
+    crashes: true
     detail: Big. Quarter crashes, triplet kick every bar. Build into the chorus.
   - name: Chorus
     part: Act 3 · Finale
@@ -76,19 +79,23 @@ sections:
   - name: Bridge 2
     level: 4
     cue: Crashes, floor tom triplets
+    crashes: true
     detail: Quarter crashes, 4 on floor, floor tom triplets.
   - name: Refrain
     level: 5
     cue: Kick triplets, then snare
+    crashes: true
     detail: "First half: quarter crashes, triplet kick. Second half: quarter crashes, snare triplets, 4 on floor."
   - name: Post 1
     level: 5
     cue: Snare hits on "way I was"
+    crashes: true
     detail: Quarter crashes. Snare hits on "way I was".
     hot: true
   - name: Post 2
     level: 5
     cue: Crashes, offbeat floor tom
+    crashes: true
     detail: 4 on floor, quarter crashes, offbeat floor tom.
   - name: End
     level: 4

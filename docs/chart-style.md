@@ -35,7 +35,8 @@ Grooves and parts:
 - **rims**: cross-stick / rim click
 - **cymbal swells**: mallet cymbal swells
 - **crash on 1**
-- **quarter crashes**: crash on every beat
+- **quarter crashes**: crash on every beat. Also add `crashes: true` to any section played with
+  quarter crashes – it shows a blue cymbal icon at the end of the row.
 - **snare 16ths** / **floor tom triplets** / **kick 8ths**
 
 Moves:
