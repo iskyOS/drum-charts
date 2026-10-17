@@ -1,4 +1,5 @@
 title: Who Else
+artist: Gateway Worship
 key: B
 bpm: 68
 length: "4:45"
@@ -50,73 +51,3 @@ sections:
     level: 2
     cue: "Swell – watch Adam"
     hot: true
-
-variants:
-  june:
-    note: "Fade straight into V1 – no intro. Each bridge row is one B1 + B2 cycle; build the whole way."
-    sections:
-      - name: V1
-        level: 0
-        cue: "Drums out – fade in"
-        detail: "Drums totally out – keys and pad."
-      - name: Chorus
-        level: 1
-        cue: "Kick 1, floor tom"
-        detail: "Just kick on 1 and floor tom – minimal."
-      - name: V2
-        level: 1
-        cue: "Quiet snare roll"
-        detail: "Quiet single-stroke roll on the snare."
-      - name: Chorus
-        x: 2
-        level: 1
-        cue: "Kick 1, floor tom"
-      - name: Bridge 1
-        level: 2
-        cue: "Rims"
-        detail: "'Lamb of God.'"
-      - name: Bridge 2 + 3
-        level: 3>4
-        cue: "Build each cycle"
-      - name: Bridge 4
-        level: 5
-        cue: "Ride, driving kick, crashes"
-        hot: true
-      - name: Chorus
-        level: 4
-        cue: "Ride and kick, backbeat"
-      - name: Tag
-        x: 2
-        level: 4
-        cue: "4 on floor"
-        detail: "Straight kick, hold the energy."
-      - name: End
-        level: 5
-        cue: "Big swell and crashes"
-        hot: true
-
-  reprise:
-    note: "After the sermon – comes in big out of the prayer of repentance, more energy than the main version."
-    sections:
-      - name: Bridge 1
-        level: 4
-        cue: "Big – ride, crashes, kick"
-        detail: "Out of the prayer, come in big: ride and crashes with a driving kick."
-        hot: true
-      - name: Bridge 2
-        level: 4
-        cue: "Ride and kick – keep driving"
-      - name: Bridge 3
-        level: 5
-        cue: "Peak – crashes, full kit"
-      - name: Chorus
-        level: 5
-        cue: "Ride and kick, backbeat"
-        detail: "Like the main song's final chorus."
-      - name: Tag
-        level: 5
-        cue: "4 on floor – stay big"
-      - name: End
-        level: 5
-        cue: "Big swell and crashes"
-        hot: true

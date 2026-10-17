@@ -38,10 +38,9 @@ sections:
     part: Act 2 · Big build   # optional – starts a labelled block here, to break up long songs
     crashes: true       # played with quarter crashes – shows a cymbal icon at the end of the row
 
-variants:               # optional alternate arrangements of the same song
-  reprise:
-    length: "3:00"
-    note: 2× big bridges, 2× big chorus, end big.
+variants:               # optional alternate arrangements of the same song (rarely needed)
+  acoustic:
+    note: Brushes only.
     sections: [...]     # anything not given is taken from the main song
 ```
 
@@ -58,9 +57,7 @@ songs:
   - song: holy-forever
     leader: Adam
     key: C              # only if this week's key differs (highlighted on stage)
-  - song: i-speak-jesus
-    variant: reprise
-  - what-a-friend       # a bare id works too (or "i-speak-jesus:reprise")
+  - what-a-friend       # a bare id works too
 ```
 
 A set only *points at* songs; it never copies a chart. Week-specific things – who's leading, a key
@@ -70,7 +67,7 @@ song goes in the song file.
 ## The app
 
 - Opens on the next upcoming Sunday. ☰ lists every set and lets you build a set from any songs.
-- Any set is a link: `#set=2026-10-18`, or any songs in any order: `#songs=holy-forever,i-speak-jesus:reprise`.
+- Any set is a link: `#set=2026-10-18`, or any songs in any order: `#songs=holy-forever,praise`.
 - The whole song map always fits on one screen – text scales to fit, no scrolling.
 - Swipe, tap the big Next button, or tap a song number at the top to change songs.
 - Tap a section to mark where you are; earlier sections fade so the next one stands out.

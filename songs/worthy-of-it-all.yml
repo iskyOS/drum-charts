@@ -56,37 +56,3 @@ sections:
     cue: "4 quarter hits, let ring"
     detail: "Four quarter notes, kick and crash together on each, then let the last one ring out."
     hot: true
-
-variants:
-  reprise:
-    note: "Start low – no big build in. Same parts as the main song from the bridges on, except Bridge 1 is ride taps instead of rims. Adam: no vamp after the bridges. Bridge pass counts still unconfirmed."
-    sections:
-      - name: Interlude
-        level: 0
-        cue: "Drums out – no build in"
-        detail: "Don't build in. Sit out until the bridge starts."
-        hot: true
-      - name: Bridge 1
-        x: 2
-        level: 1
-        cue: "Triplet kick, ride taps"
-        detail: "Cymbal ring in, then triplet kick with light ride taps (not rims – that's the main song). Both passes. No snare."
-      - name: Bridge 2 pass 1
-        level: 3
-        cue: "4 on floor, ride 8ths, toms"
-        detail: "4 on floor, ride 8ths, toms and snare underneath."
-      - name: Bridge 2 pass 2
-        level: 4>5
-        cue: "Straight build, fill to chorus"
-        detail: "Straight 8th build on ride and snare, fill out to the chorus on the 1. No vamp."
-        hot: true
-      - name: Chorus
-        x: 2
-        level: 5
-        cue: "Double kick, ride groove"
-        detail: "Biggest point of the song."
-      - name: End
-        level: 5
-        cue: "4 quarter hits, let ring"
-        detail: "Four quarter notes, kick and crash together on each, then let the last one ring out."
-        hot: true

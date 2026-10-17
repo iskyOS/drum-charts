@@ -1,4 +1,5 @@
 title: Praise
+artist: Elevation Worship
 key: G
 bpm: 127
 note: "Josiah: no intro or outro chants. Mostly toms / floor tom and ride; hats only on the interlude."
@@ -72,76 +73,3 @@ sections:
     cue: "Big hit on 4, then rumble"
     detail: "No outro chant. Land big on the 4, then a floor tom and cymbal rumble into the next song."
     hot: true
-
-variants:
-  june:
-    key: A
-    note: "Service opener."
-    sections:
-      - name: Intro
-        level: 3
-        cue: "Swell, crash on 1"
-        detail: "Cymbal and floor tom swell into a big crash on the 1."
-        hot: true
-      - name: V1
-        level: 1
-        cue: "Floor tom, rims on 4"
-        detail: "Floor tom on quarters, rims on 4, no cymbals – pulled way back."
-      - name: V2
-        level: 1
-        cue: "Same as V1"
-      - name: Pre-Chorus
-        level: 3
-        cue: "Toms – build, no hats"
-        detail: "Build the tom groove (no hats), fill into the 1."
-      - name: Chorus 1
-        level: 4
-        cue: "Toms, backbeat, 4 on floor"
-        detail: "Toms, backbeat, 4 on floor, crash accents."
-      - name: V3
-        level: 2
-        cue: "Floor tom groove, backbeat"
-        detail: "Floor tom groove, backbeat, simple kick – pull back."
-      - name: V4
-        level: 2
-        cue: "Floor tom, add kick drive"
-      - name: Pre-Chorus
-        level: 3
-        cue: "Build, fill into chorus"
-      - name: Chorus 1
-        level: 4
-        cue: "Toms and snare, 4 on floor"
-      - name: Chorus 2
-        level: 4
-        cue: "Push – bigger crashes"
-      - name: Interlude
-        x: 2
-        level: 3
-        cue: "Ride 8ths only"
-        detail: "Breakdown – ease back, straight 8ths on the ride, light kick."
-      - name: Bridge 1
-        level: 2
-        cue: "Floor tom groove, light"
-        detail: "Light and intimate."
-      - name: Bridge 2
-        level: 4
-        cue: "Floor toms and snare, build"
-      - name: Chorus 1
-        x: 2
-        level: 5
-        cue: "Ride bell – the payoff"
-        detail: "Wash on the ride bell, driving kick, backbeat."
-        hot: true
-      - name: Chorus 2
-        x: 2
-        level: 5
-        cue: "Back to toms – huge"
-      - name: Instrumental
-        x: 2
-        level: 5
-        cue: "Toms, big fills"
-      - name: End
-        level: 5
-        cue: "Big hits, swell into next"
-        detail: "No refrain – big crash hits, then swell into the next song."
-        hot: true
