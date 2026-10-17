@@ -119,16 +119,20 @@
       s.time && `<span>${esc(s.time)}</span>`,
       s.status === "draft" && `<span class="tag draft">DRAFT</span>`,
     ].filter(Boolean).join("");
+    // a section with `part` starts a new labelled block (e.g. "Act 2 · Big build"); row striping restarts per block
+    let stripe = 0;
     const rows = s.s.map((r, k) => {
-      const cls = [`row`, `l${Math.max(r.l, r.l2 ?? 0)}`, r.hot && "hot", now >= 0 && k < now && "past", k === now && "now"];
-      return `<li class="${cls.filter(Boolean).join(" ")}" data-k="${k}">
+      if (r.p) stripe = 0;
+      const cls = [`row`, `l${Math.max(r.l, r.l2 ?? 0)}`, stripe++ % 2 && "alt", r.hot && "hot", now >= 0 && k < now && "past", k === now && "now"];
+      const part = r.p ? `<li class="part${now >= 0 && k <= now ? " reached" : ""}"><span>${esc(r.p)}</span></li>` : "";
+      return `${part}<li class="${cls.filter(Boolean).join(" ")}" data-k="${k}">
         ${lvlBar(r)}
         <div class="nm">${esc(r.n)}${r.x ? `<span class="x">×${r.x}</span>` : ""}</div>
         <div class="cue">${cueHtml(r.c || "")}</div>
         ${r.d ? `<div class="d">${esc(r.d)}</div>` : ""}
       </li>`;
     }).join("");
-    stage.style.setProperty("--half", Math.ceil(s.s.length / 2));
+    stage.style.setProperty("--half", Math.ceil((s.s.length + s.s.filter((r) => r.p).length) / 2));
     stage.innerHTML = `
       <div class="head">
         <div class="t"><h1>${esc(s.title)}</h1>${sub ? `<div class="sub notes-only">${sub}</div>` : ""}</div>

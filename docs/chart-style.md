@@ -52,6 +52,9 @@ Structure:
 - When passes play differently (a bridge that builds, a pre-chorus that's toms then a build), give
   each pass its own row – `Bridge 1`, `Bridge 2`, `Bridge 3` – with what to play that time through.
   Never squeeze several passes into one "Bridge ×3" row.
+- Long or confusing songs: split the map into a few labelled blocks by adding `part:` to the first
+  section of each block (`Act 1 · Opener`, `Act 2 · Big build`, `Act 3 · Finale`). Two to four
+  blocks; skip it for songs that are easy to follow.
 
 ## Kick patterns (count notation)
 

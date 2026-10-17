@@ -116,7 +116,14 @@ button.chip.beat { background: var(--ink); color: var(--bg); }
   padding: .26em .35em; border-radius: .3em; background: var(--panel2);
   transition: opacity .15s;
 }
-.row:nth-child(even) { background: var(--panel); }
+.row.alt { background: var(--panel); }
+.part {
+  display: flex; align-items: center; gap: .5em; margin-top: .3em;
+  font-size: .78em; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ink2);
+}
+.part:first-child { margin-top: 0; }
+.part::after { content: ""; flex: 1; height: 2px; border-radius: 1px; background: var(--line); }
+.part.reached { color: var(--dim); }
 .lvl { position: relative; height: 1.25em; border-radius: .2em; background: #171b24; overflow: hidden; }
 .lvl i { position: absolute; inset: 0 auto 0 0; border-radius: .2em; }
 .lvl.out { background: none; border: 1.5px dashed var(--l0); display: grid; place-items: center; font-size: .7em; height: 1.8em; font-weight: 800; letter-spacing: .1em; color: var(--dim); }

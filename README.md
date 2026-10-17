@@ -35,6 +35,7 @@ sections:
     cue: Pass 1 toms → pass 2 build
     detail: Big build into the chorus.   # longer note, shown only in Notes mode
     hot: true           # highlight: a hit, a drop, an ending – something not to miss
+    part: Act 2 · Big build   # optional – starts a labelled block here, to break up long songs
 
 variants:               # optional alternate arrangements of the same song
   reprise:

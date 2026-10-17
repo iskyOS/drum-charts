@@ -6,6 +6,7 @@ length: "5:30"
 
 sections:
   - name: Intro
+    part: Act 1 · Opener
     level: 4
     cue: Quarter crashes
     detail: Quarter crashes through the intro.
@@ -30,6 +31,7 @@ sections:
     cue: Quarter crashes, then fill
     detail: Quarter crashes, then a fill into V3.
   - name: V3
+    part: Act 2 · Big build
     level: 3>4
     cue: 4 on floor, light floor tom
     detail: 4 on floor, light floor tom beat. Build into the chorus.
@@ -58,6 +60,7 @@ sections:
     cue: Quarter crashes, triplet kick
     detail: Big. Quarter crashes, triplet kick every bar. Build into the chorus.
   - name: Chorus
+    part: Act 3 · Finale
     level: 4
     cue: Drums only – snare 16ths
     detail: Drums only. 4 on floor, snare 16ths.
