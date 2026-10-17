@@ -125,7 +125,7 @@ button.chip.beat { background: var(--ink); color: var(--bg); }
   display: inline-block; margin-left: .25em; padding: .05em .3em; border-radius: .25em;
   background: var(--ink); color: var(--bg); font-size: .82em; vertical-align: .06em;
 }
-.cue { font-weight: 600; font-size: 1.12em; line-height: 1.08; color: var(--ink2); }
+.cue { font-weight: 600; font-size: 1.12em; line-height: 1.08; color: var(--ink2); text-wrap: balance; }
 .row.l0 .cue { color: var(--dim); }
 .row.hot { background: var(--hotbg); box-shadow: inset .22em 0 0 var(--hot); }
 .row.hot .cue { color: var(--ink); font-weight: 700; }

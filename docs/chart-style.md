@@ -5,13 +5,15 @@ writes both layers, cleaning the notes up for whatever reads easiest.
 
 ## 1. Stage cue – `cue` (shown in Stage mode, read mid-song)
 
-- Short enough to fit on one line on the phone (roughly 25 characters) and be read in about half a
-  second. Usually 2–4 words, but that's a guide, not a rule.
-- Say **what changes** in this section, not the whole groove.
-- Exception: the first section where drums come in states the groove – there's nothing yet to
-  change from.
+- Plain, straightforward words that say what to play in this section. Clear beats short: it should
+  make sense at a glance to someone who hasn't seen the chart before.
+- Lead with what's new or different in this section, then the rest of the groove if it helps.
+- No arrows, symbols or abbreviations standing in for words (write "pull back", not "↓";
+  "pass 2", not "p2").
+- Aim to fit on one line on the phone (about 28 characters). Put anything longer in the longhand.
 - Use the standard terms below.
-- Good: `Ride, half-time` · `↑ build` · `DROP – stay down` · `HIT 1` · `OUT` · `Add 4 on floor`
+- Good: `Pull back: rims, 4 on floor` · `Toms pass 1, full pass 2` · `Drop way down, stay down` ·
+  `Big hit on 1 to end` · `Drums out – acoustic only`
 
 ## 2. Longhand – `detail` (Rehearse / Notes mode)
 
@@ -31,21 +33,21 @@ Grooves and parts:
 - **triplet kick**
 - **floor tom 8ths**
 - **rims**: cross-stick / rim click
-- **swells**: mallet cymbal swells
+- **cymbal swells**: mallet cymbal swells
 - **crash on 1**
 
 Moves:
-- **OUT** / **IN**: drums out / drums enter
-- **↑ build** / **↓ pull back**
-- **DROP**: sudden cut to out or near-out
+- **drums out** / **drums in**
+- **build** / **pull back**
+- **drop**: sudden cut to out or near-out
 - **rumble**
-- **HIT 1**: big hit on 1
+- **big hit on 1**
 - **ring on 4**: hit on 4 and let it ring
 - **fill**: fill into the next section
 
 Structure:
 - **×2**: repeats – use the section's `x:` field, not the cue
-- **p1 / p2**: pass 1 / pass 2, when a part changes between passes
+- **pass 1 / pass 2**: when a part changes between passes
 
 ## Kick patterns (count notation)
 

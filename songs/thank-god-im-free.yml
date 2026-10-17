@@ -8,11 +8,11 @@ status: draft
 sections:
   - name: Intro
     level: 3
-    cue: Hats 8ths, 4 on floor
+    cue: 4 on floor, hats 8ths
     detail: Set the dance feel. Fill into V1.
   - name: V1 · V2
     level: 2
-    cue: ↓ rims, 4 on floor
+    cue: "Pull back: rims, 4 on floor"
     detail: 4 on floor, rims, closed hats. V2 adds a little – open hats into the turns.
   - name: Chorus
     level: 4
@@ -24,38 +24,36 @@ sections:
     detail: "'I'm free' – keep driving."
   - name: Turn
     level: 3
-    cue: Fill, ↓ pull back
+    cue: Small fill, then pull back
     detail: Small fill, pull back a notch.
   - name: V3
     level: 3
     cue: Backbeat, hats 16ths
   - name: Chorus · Post
     level: 5
-    cue: Ride, crashes
-    detail: Big – ride and crashes.
+    cue: Big – ride and crashes
   - name: Bridge
     x: 3
     level: 2>4
-    cue: ↑ build p1 → p3
-    detail: Start pared down. Snare 8ths into the end of p3.
+    cue: Build a little each pass
+    detail: Start pared down and build each time through. Snare 8ths at the end of pass 3.
     hot: true
   - name: Refrain
     level: 5
-    cue: Full
-    detail: All in.
+    cue: Full – everything in
   - name: Chorus · Post
     level: 5
-    cue: Ride, crashes
+    cue: Big – ride and crashes
   - name: Bridge
     x: 2
     level: 3>4
-    cue: ↑ build, shorter
-  - name: Refrain → Post
+    cue: Build again, shorter
+  - name: Refrain + Post
     x: 2
     level: 5
     cue: Peak – ride it out
   - name: End
     level: 3
-    cue: Watch – HIT 1?
-    detail: Watch the leader. Still to confirm – HIT 1, or ring out?
+    cue: Watch leader for the ending
+    detail: Still to confirm – big hit on 1, or let it ring out?
     hot: true

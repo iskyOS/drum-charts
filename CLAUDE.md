@@ -6,8 +6,9 @@ Rules when adding or editing charts:
 - One source of truth: a song's chart lives only in `songs/<id>.yml`. Never copy sections into a set.
   Different arrangements of the same song go under `variants:` in that song's file.
 - Week-specific things (leader, a different key, a transition note) go on the set entry in `sets/<date>.yml`.
-- Write every `cue` and `detail` by docs/chart-style.md: cues that fit on one line and say what
-  changes, longhand cleaned up for easy reading, and always the standard terms listed there.
+- Write every `cue` and `detail` by docs/chart-style.md: cues in plain, straightforward words that
+  say what to play (no arrows or shorthand), longhand cleaned up for easy reading, and the
+  standard terms listed there.
 - Mark only the moments that must not be missed with `hot: true`; if everything is hot, nothing is.
 - Run `python3 scripts/build.py` after changes; it validates everything and must pass.
 - The stage view must fit a whole song on one iPhone screen without scrolling (the app auto-scales).

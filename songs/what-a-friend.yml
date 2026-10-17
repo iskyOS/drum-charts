@@ -2,11 +2,11 @@ title: What a Friend We Have in Jesus
 artist: Hymn
 key: D
 length: "1:30"
-note: Short tag – acoustic only. Drums OUT.
+note: Short tag – acoustic only. Drums out.
 
 sections:
   - name: V1
     x: 2
     level: 0
-    cue: OUT
-    detail: Acoustic only. Sit tight and get ready for the next song.
+    cue: Drums out – acoustic only
+    detail: Sit tight and get ready for the next song.

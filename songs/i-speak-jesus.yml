@@ -8,11 +8,10 @@ note: "Steph: once we drop to the low V1 near the end, it stays down – do NOT 
 sections:
   - name: Intro
     level: 0
-    cue: OUT
-    detail: Keys / pad only.
+    cue: Drums out – keys and pad
   - name: V1
     level: 1
-    cue: Kick 1, rims 3
+    cue: Kick 1, rims on 3
     detail: Light – kick 1, rims on 3. Stay out of the way.
   - name: V2
     level: 2
@@ -24,25 +23,23 @@ sections:
     detail: First real groove.
   - name: V3
     level: 2
-    cue: ↓ pull back
-    detail: Back down, keep the pulse.
+    cue: Pull back, keep the pulse
   - name: Chorus
     x: 2
     level: 4
-    cue: ↑ ride p2
-    detail: Lift – ride on p2.
+    cue: Bigger – ride on pass 2
   - name: Bridge
     x: 2
     level: 4>5
-    cue: Toms p1, full p2
-    detail: "'Shout Jesus' – tom build on p1, all in on p2."
+    cue: Toms pass 1, full pass 2
+    detail: "'Shout Jesus' – build on the toms the first time, everything in the second time."
   - name: Chorus
     x: 2
     level: 5
-    cue: Peak
+    cue: Peak – full out
   - name: Low V1
     level: 1
-    cue: DROP – stay down
+    cue: Drop way down, stay down
     detail: "Steph: once we come down here, it stays down through the end. Do NOT build back up."
     hot: true
   - name: Interlude
@@ -53,13 +50,12 @@ sections:
   - name: Bridge
     x: 3
     level: 1
-    cue: Stay low – no build
+    cue: Stay low – don't build
     detail: Hold back even as the bridge repeats.
     hot: true
   - name: End
     level: 0
-    cue: OUT
-    detail: Stay down.
+    cue: Drums out
 
 variants:
   reprise:
@@ -69,16 +65,15 @@ variants:
       - name: Bridge
         x: 2
         level: 5
-        cue: BIG from the top
+        cue: Big from the first beat
         detail: "'Shout Jesus'. No build-in – both passes full."
         hot: true
       - name: Chorus
         x: 2
         level: 5
-        cue: Ride, crashes
+        cue: Ride and crashes
         detail: Keep it up both passes.
       - name: End
         level: 5
-        cue: HIT 1
-        detail: End big on the 1.
+        cue: Big hit on 1 to end
         hot: true

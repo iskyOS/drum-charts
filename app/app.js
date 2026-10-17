@@ -111,7 +111,7 @@
       return `<li class="${cls.filter(Boolean).join(" ")}" data-k="${k}">
         ${lvlBar(r)}
         <div class="nm">${esc(r.n)}${r.x ? `<span class="x">×${r.x}</span>` : ""}</div>
-        <div class="cue">${esc(r.c || "")}</div>
+        <div class="cue">${esc(r.c || "").replace(/ (\d)/g, "\u00a0$1")}</div>
         ${r.d ? `<div class="d">${esc(r.d)}</div>` : ""}
       </li>`;
     }).join("");
