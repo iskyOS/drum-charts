@@ -3,66 +3,92 @@ artist: Elevation Rhythm
 key: E
 bpm: 128
 length: "5:30"
-status: draft
 
 sections:
   - name: Intro
-    level: 3
-    cue: 4 on floor, hats 8ths
-    detail: Set the dance feel. Fill into V1.
-  - name: V1 · V2
+    level: 4
+    cue: Quarter crashes
+    detail: Quarter crashes through the intro.
+  - name: V1
     level: 2
-    cue: "Pull back: rims, 4 on floor"
-    detail: 4 on floor, rims, closed hats. V2 adds a little – open hats into the turns.
+    cue: Quiet – hats 16ths, 4 on floor
+    detail: Quiet. Hats 16ths with triplet accents, 4 on floor.
+  - name: V2
+    level: 2>4
+    cue: Same as V1, build to chorus
+    detail: Same as V1, then a straight build into the chorus.
   - name: Chorus
     level: 4
-    cue: Backbeat, open hats
-    detail: Crash on the top of each 4-bar phrase.
+    cue: Snare 16ths, kick 3 · 4 · 1
+    detail: Snare 16ths with triplet accents. Kick 3 · 4 · 1 at the end of every 2nd bar.
   - name: Post
     level: 4
-    cue: Keep driving
-    detail: "'I'm free' – keep driving."
+    cue: Add 4 on floor
+    detail: Keep the chorus groove, add 4 on floor.
   - name: Turn
     level: 3
-    cue: Small fill, then pull back
-    detail: Small fill, pull back a notch.
+    cue: Quarter crashes, then fill
+    detail: Quarter crashes, then a fill into V3.
   - name: V3
-    level: 3
-    cue: Backbeat, hats 16ths
-  - name: Chorus · Post
+    level: 3>4
+    cue: 4 on floor, light floor tom
+    detail: 4 on floor, light floor tom beat. Build into the chorus.
+  - name: Chorus
     level: 5
-    cue: Big – ride and crashes
+    cue: Big – hats 16ths, 4 on floor
+    detail: Big. Hats 16ths with snare accents, 4 on floor.
+  - name: Post
+    level: 4
+    cue: Keep going, then quiet fill
+    detail: Keep the groove going, then a quiet fill into the low bridge.
   - name: Bridge 1
     level: 2
-    cue: "Strip back: rims, 4 on floor"
-    detail: Start pared down; the bridge builds a little each time through.
+    cue: Low – floor tom triplets
+    detail: Low. Floor tom triplets. Kick 3 · 4 · 1 at the end of every 2nd bar.
   - name: Bridge 2
-    level: 3
-    cue: Backbeat, hats 8ths
-  - name: Bridge 3
     level: 3>4
-    cue: Open hats, snare 8ths at end
-    detail: Snare 8ths through the end of this pass to launch the refrain.
-    hot: true
+    cue: Add 4 on floor, kick 8ths
+    detail: Add 4 on floor, then a big kick 8ths build into the last bridge.
+  - name: Bridge 3
+    level: 5
+    cue: Big – snare hits on 3 & 4
+    detail: Big. Hats 16ths, 4 on floor. Snare hits on 3 & 4 every other bar.
   - name: Refrain
     level: 5
-    cue: Full – everything in
-  - name: Chorus · Post
+    cue: Quarter crashes, triplet kick
+    detail: Big. Quarter crashes, triplet kick every bar. Build into the chorus.
+  - name: Chorus
+    level: 4
+    cue: Drums only – snare 16ths
+    detail: Drums only. 4 on floor, snare 16ths.
+    hot: true
+  - name: Post
     level: 5
-    cue: Big – ride and crashes
+    cue: 4 on floor, hats 16ths
+    detail: 4 on floor, hats 16ths with snare accents.
   - name: Bridge 1
     level: 3
-    cue: Backbeat, hats 8ths
-    detail: Second build – shorter than the first.
+    cue: Open hats, floor tom triplets
+    detail: Washy. Quarter notes on open hats, floor tom triplets.
   - name: Bridge 2
-    level: 3>4
-    cue: Open hats, fill into refrain
-  - name: Refrain + Post
-    x: 2
+    level: 4
+    cue: Crashes, floor tom triplets
+    detail: Quarter crashes, 4 on floor, floor tom triplets.
+  - name: Refrain
     level: 5
-    cue: Peak – ride it out
+    cue: Kick triplets, then snare
+    detail: "First half: quarter crashes, triplet kick. Second half: quarter crashes, snare triplets, 4 on floor."
+  - name: Post 1
+    level: 5
+    cue: Snare hits on "way I was"
+    detail: Quarter crashes. Snare hits on "way I was".
+    hot: true
+  - name: Post 2
+    level: 5
+    cue: Crashes, offbeat floor tom
+    detail: 4 on floor, quarter crashes, offbeat floor tom.
   - name: End
-    level: 3
-    cue: Watch leader for the ending
-    detail: Still to confirm – big hit on 1, or let it ring out?
+    level: 4
+    cue: Cymbal hits, let ring
+    detail: Cymbal hits and let them ring out.
     hot: true

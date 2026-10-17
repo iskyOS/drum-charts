@@ -22,7 +22,7 @@ VARIANT_KEYS = {"title", "key", "bpm", "time", "length", "status", "note", "sect
 SECTION_KEYS = {"name", "x", "level", "cue", "detail", "hot"}
 SET_KEYS = {"date", "title", "note", "songs"}
 ENTRY_KEYS = {"song", "variant", "leader", "key", "note"}
-CUE_MAX = 28  # characters that reliably fit on one line of the cue column on an iPhone
+CUE_MAX = 30  # characters that reliably fit on one line of the cue column on an iPhone
 LEVEL_RE = re.compile(r"^([0-5])(?:\s*>\s*([0-5]))?$")
 
 errors = []

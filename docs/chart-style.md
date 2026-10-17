@@ -10,7 +10,7 @@ writes both layers, cleaning the notes up for whatever reads easiest.
 - Lead with what's new or different in this section, then the rest of the groove if it helps.
 - No arrows, symbols or abbreviations standing in for words (write "pull back", not "↓";
   "pass 2", not "p2").
-- Aim to fit on one line on the phone (about 28 characters). Put anything longer in the longhand.
+- Aim to fit on one line on the phone (about 30 characters). Put anything longer in the longhand.
 - Use the standard terms below.
 - Good: `Pull back: rims, 4 on floor` · `Toms pass 1, full pass 2` · `Drop way down, stay down` ·
   `Big hit on 1 to end` · `Drums out – acoustic only`
@@ -35,6 +35,8 @@ Grooves and parts:
 - **rims**: cross-stick / rim click
 - **cymbal swells**: mallet cymbal swells
 - **crash on 1**
+- **quarter crashes**: crash on every beat
+- **snare 16ths** / **floor tom triplets** / **kick 8ths**
 
 Moves:
 - **drums out** / **drums in**

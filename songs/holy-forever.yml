@@ -3,51 +3,66 @@ artist: Bethel Music
 key: B
 bpm: 72
 length: "5:30"
-status: draft
 note: "Adam: one big tag only."
 
 sections:
   - name: Intro
     level: 0
-    cue: Drums out – pad and keys
+    cue: Drums out
   - name: V1
     level: 1
-    cue: Cymbal swells, kick 1
+    cue: Cymbal swell into pre-chorus
   - name: Pre-Chorus
-    level: 2
-    cue: Floor tom pulse
+    level: 1
+    cue: Light toms, then swell
+    detail: Light tom beat, cymbal swell into the chorus.
   - name: Chorus 1
-    level: 3
-    cue: Half-time, crash on 1
+    level: 2
+    cue: Same toms, add swells
+    detail: Same light tom beat, add cymbal swells.
   - name: Turn
     level: 2
-    cue: Hold steady
+    cue: Add 4 on floor
   - name: V2
-    level: 2
-    cue: Hats and rims
+    level: 3
+    cue: Bigger floor tom, snare on 4
+    detail: Bigger floor tom beat, snare on 4. Fill out into the tag.
   - name: Tag
-    level: 3
-    cue: "'Holy forever' tag"
-  - name: Chorus 1 · 2
-    level: 4
-    cue: Bigger – ride on chorus 2
-  - name: Pre-Chorus 1
-    level: 3
-    cue: Toms
-  - name: Pre-Chorus 2
-    level: 3>4
-    cue: Build into the chorus
-    detail: Big build into the chorus.
+    level: 1
+    cue: Out, tom fill on "angels"
+    detail: Drums out, then a tom fill into Chorus 1 on "angels".
     hot: true
-  - name: Chorus 1 · 2
+  - name: Chorus 1
+    level: 4
+    cue: Hats 8ths, kick 1 · 3&
+    detail: Groove in. Hats 8ths, backbeat, kick 1 · 3&.
+  - name: Chorus 2
+    level: 4
+    cue: Keep going, then fill out
+    detail: Keep the groove going, then fill out.
+  - name: Pre-Chorus 1
+    level: 2
+    cue: Low – ride 8ths, floor tom
+    detail: Low. Ride 8ths, floor tom beat.
+  - name: Pre-Chorus 2
+    level: 3>5
+    cue: More toms, snare on 4, build
+    detail: Add more toms and snare on 4. Big straight build into the chorus.
+    hot: true
+  - name: Chorus 1
     level: 5
-    cue: Full, with crashes
+    cue: Hats 8ths, kick 1 · 3&
+    detail: Back to hats 8ths, backbeat, kick 1 · 3&.
+  - name: Chorus 2
+    level: 5
+    cue: More kick, triplet feel
   - name: Tag
     level: 5
-    cue: One big tag only
-    detail: "Adam: one big tag only."
+    cue: One big tag – stay big
+    detail: "Adam: one big tag only. Stay big."
     hot: true
   - name: End
     level: 5
-    cue: Big hit on 1 to end
+    cue: Big hit on 1, then out
+    detail: "Adam: end big on a 1, then out."
     hot: true

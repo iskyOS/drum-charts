@@ -6,75 +6,90 @@ length: "6:00"
 note: "Steph: once we drop to the low V1 near the end, it stays down – do NOT build back up."
 
 sections:
-  - name: Intro
+  - name: Intro · V1
     level: 0
-    cue: Drums out – keys and pad
-  - name: V1
-    level: 1
-    cue: Kick 1, rims on 3
-    detail: Light – kick 1, rims on 3. Stay out of the way.
+    cue: Drums out
+    detail: Out through the intro and V1.
   - name: V2
-    level: 2
-    cue: Add hats, kick 1 · 3
-    detail: Add hats 8ths, kick 1 · 3.
+    level: 0
+    cue: Out – swell into chorus
+    detail: Drums out, cymbal swell into the chorus.
   - name: Chorus
-    level: 3
-    cue: Backbeat, crash on 1
-    detail: First real groove.
+    level: 0
+    cue: Out – swell into turn
+    detail: Drums out, cymbal swell into the turn.
+  - name: Turn
+    level: 1
+    cue: "Drums in: ride quarters"
+    detail: Ride quarter notes.
   - name: V3
     level: 2
-    cue: Pull back, keep the pulse
-  - name: Chorus
-    x: 2
-    level: 4
-    cue: Bigger – ride on pass 2
+    cue: 4 on floor, light floor tom
+    detail: 4 on floor, light floor tom beat.
+  - name: Chorus 1
+    level: 3
+    cue: Ride 8ths, toms, snare on 4
+    detail: Ride 8ths, tom beat, snare on 4.
+  - name: Chorus 2
+    level: 3
+    cue: Same – out last 2 bars
+    detail: Same as Chorus 1. Totally out for the last 2 bars.
+    hot: true
   - name: Bridge 1
-    level: 3>4
-    cue: Build on the toms
-    detail: "'Shout Jesus' – tom build the first time through."
-  - name: Bridge 2
-    level: 5
-    cue: Full – everything in
-  - name: Chorus
-    x: 2
-    level: 5
-    cue: Peak – full out
-  - name: Low V1
     level: 1
-    cue: Drop way down, stay down
-    detail: "Steph: once we come down here, it stays down through the end. Do NOT build back up."
+    cue: Out – in for last 2 bars
+    detail: Drums out. Come in for the last 2 bars with 4 on floor and ride 8ths.
+    hot: true
+  - name: Bridge 2
+    level: 4
+    cue: Kick, ride and hats 8ths
+  - name: Chorus 1
+    level: 5
+    cue: Hats 8ths, kick 1 · 2a · 3&
+    detail: Hats 8ths, backbeat, kick 1 · 2a · 3&.
+  - name: Chorus 2
+    level: 5
+    cue: Out on "burn like a fire"
+    detail: Same groove. Drums out on "burn like a fire" (last 2 bars).
+    hot: true
+  - name: Low V1
+    level: 0
+    cue: Drums out – don't build back
+    detail: "Steph: once we come down here, we stay down through the end."
     hot: true
   - name: Interlude
     x: 2
-    level: 1
-    cue: Stay low
-    detail: No lift here.
+    level: 0
+    cue: Drums out
   - name: Bridge
     x: 3
-    level: 1
-    cue: Stay low – don't build
-    detail: Hold back even as the bridge repeats.
-    hot: true
+    level: 0
+    cue: Stay out – don't build
+    detail: "Not playing these tomorrow. For reference, if we ever build back: Bridge 1 ride 8ths. Bridge 2 4 on floor and quarter crashes. Bridge 3 ride, kick beat and backbeat."
   - name: End
     level: 0
     cue: Drums out
+    detail: Stay down into the acoustic tag.
 
 variants:
   reprise:
     length: "3:00"
-    note: "Steph: 2× big bridges, then 2× big chorus, end big on the 1."
+    note: "Steph: two big bridges, then two big choruses, end big on the 1. Parts taken from the main song's build-back bridges and big chorus."
     sections:
-      - name: Bridge
-        x: 2
-        level: 5
-        cue: Big from the first beat
-        detail: "'Shout Jesus'. No build-in – both passes full."
+      - name: Bridge 1
+        level: 4
+        cue: 4 on floor, quarter crashes
+        detail: Big from the top. 4 on floor and quarter crashes (from the build-back Bridge 2).
         hot: true
+      - name: Bridge 2
+        level: 5
+        cue: Ride, kick beat, backbeat
+        detail: Ride, kick beat, backbeat (from the build-back Bridge 3).
       - name: Chorus
         x: 2
         level: 5
-        cue: Ride and crashes
-        detail: Keep it up both passes.
+        cue: Hats 8ths, kick 1 · 2a · 3&
+        detail: Hats 8ths, backbeat, kick 1 · 2a · 3&. Stay big both passes.
       - name: End
         level: 5
         cue: Big hit on 1 to end
