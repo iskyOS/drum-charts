@@ -1,10 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <rect width="512" height="512" rx="112" fill="#07080b"/>
-  <g transform="translate(96 120)">
-    <rect y="0"   width="128" height="40" rx="10" fill="#4c8dff"/>
-    <rect y="68"  width="192" height="40" rx="10" fill="#22c27a"/>
-    <rect y="136" width="320" height="40" rx="10" fill="#ff4040"/>
-    <rect y="204" width="256" height="40" rx="10" fill="#ff8a2a"/>
-    <rect y="272" width="96"  height="40" rx="10" fill="#3a4150"/>
+  <!-- stands -->
+  <g stroke="#7d8697" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="92" y1="176" x2="92" y2="420"/><line x1="92" y1="420" x2="66" y2="440"/><line x1="92" y1="420" x2="118" y2="440"/>
+    <line x1="420" y1="132" x2="420" y2="300"/>
   </g>
+  <!-- hi-hat -->
+  <ellipse cx="92" cy="170" rx="58" ry="11" fill="#ffc23d"/>
+  <ellipse cx="92" cy="184" rx="58" ry="11" fill="#e0a21f"/>
+  <!-- crash -->
+  <ellipse cx="420" cy="128" rx="66" ry="14" fill="#ffc23d" transform="rotate(-12 420 128)"/>
+  <!-- rack toms -->
+  <path d="M152 186 v52 a46 15 0 0 0 92 0 v-52" fill="#e83a3a"/>
+  <ellipse cx="198" cy="186" rx="46" ry="15" fill="#f4f6fa"/>
+  <path d="M268 186 v52 a46 15 0 0 0 92 0 v-52" fill="#e83a3a"/>
+  <ellipse cx="314" cy="186" rx="46" ry="15" fill="#f4f6fa"/>
+  <!-- floor tom -->
+  <g stroke="#7d8697" stroke-width="7" stroke-linecap="round"><line x1="372" y1="380" x2="364" y2="438"/><line x1="452" y1="380" x2="460" y2="438"/></g>
+  <path d="M360 272 v112 a52 16 0 0 0 104 0 v-112" fill="#e83a3a"/>
+  <ellipse cx="412" cy="272" rx="52" ry="16" fill="#f4f6fa"/>
+  <!-- bass drum -->
+  <circle cx="256" cy="336" r="108" fill="#e83a3a"/>
+  <circle cx="256" cy="336" r="86" fill="#f4f6fa"/>
+  <circle cx="256" cy="336" r="30" fill="none" stroke="#e83a3a" stroke-width="8"/>
+  <!-- snare -->
+  <g stroke="#7d8697" stroke-width="7" stroke-linecap="round"><line x1="104" y1="356" x2="92" y2="420"/><line x1="156" y1="356" x2="168" y2="420"/></g>
+  <path d="M74 300 v46 a56 16 0 0 0 112 0 v-46" fill="#e83a3a"/>
+  <g stroke="#ffd0c8" stroke-width="5" stroke-linecap="round"><line x1="96" y1="312" x2="96" y2="356"/><line x1="130" y1="316" x2="130" y2="362"/><line x1="164" y1="312" x2="164" y2="356"/></g>
+  <ellipse cx="130" cy="300" rx="56" ry="16" fill="#f4f6fa"/>
 </svg>
