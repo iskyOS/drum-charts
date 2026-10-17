@@ -145,6 +145,7 @@ button.chip.beat { background: var(--ink); color: var(--bg); }
 }
 
 /* rehearse/notes mode: show details, allow scrolling */
+body:not(.rehearse) .notes-only { display: none; }
 body.rehearse .stage { overflow-y: auto; -webkit-overflow-scrolling: touch; }
 body.rehearse .d { display: block; grid-column: 2 / -1; font-size: .92em; font-weight: 500; color: var(--dim); line-height: 1.2; margin-top: -.25em; }
 body.rehearse .row { row-gap: .3em; }

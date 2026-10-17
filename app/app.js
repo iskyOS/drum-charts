@@ -97,7 +97,7 @@
     }
     const notes = [
       s.week && `<div class="note week"><b>THIS WEEK</b>${esc(s.week)}</div>`,
-      s.note && `<div class="note">${esc(s.note)}</div>`,
+      s.note && `<div class="note notes-only">${esc(s.note)}</div>`,
     ].filter(Boolean).join("");
     const sub = [
       s.leader && `<span class="lead">${esc(s.leader)}</span>`,
@@ -118,8 +118,8 @@
     stage.style.setProperty("--half", Math.ceil(s.s.length / 2));
     stage.innerHTML = `
       <div class="head">
-        <div class="t"><h1>${esc(s.title)}</h1>${sub ? `<div class="sub">${sub}</div>` : ""}</div>
-        <div class="chips">
+        <div class="t"><h1>${esc(s.title)}</h1>${sub ? `<div class="sub notes-only">${sub}</div>` : ""}</div>
+        <div class="chips notes-only">
           ${s.key ? `<div class="chip${s.keyChanged ? " changed" : ""}"><small>KEY</small>${esc(s.key)}</div>` : ""}
           ${s.bpm ? `<button class="chip" id="bpm" aria-label="Flash tempo"><small>BPM</small>${esc(s.bpm)}</button>` : ""}
         </div>
@@ -138,7 +138,7 @@
     $("prev").innerHTML = prev ? `<small>‹ Prev</small><span>${esc(prev.title)}</span>` : `<small>Start</small><span>—</span>`;
     $("next").disabled = !next;
     $("next").innerHTML = next
-      ? `<small>Next ›</small><span>${esc(next.title)}${next.key ? ` <em>${esc(next.key)}</em>` : ""}</span>`
+      ? `<small>Next ›</small><span>${esc(next.title)}</span>`
       : `<small>End of set</small><span>—</span>`;
   }
 

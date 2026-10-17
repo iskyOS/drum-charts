@@ -70,7 +70,9 @@ song goes in the song file.
 - The whole song map always fits on one screen – text scales to fit, no scrolling.
 - Swipe, tap the big Next button, or tap a song number at the top to change songs.
 - Tap a section to mark where you are; earlier sections fade so the next one stands out.
-- Tap BPM to flash the tempo. **Notes** shows the longer details (that view scrolls).
+- The stage view shows just the song title, this week's note and the map. **Notes** adds key, BPM,
+  leader, artist, length, arrangement notes and the longer section details (that view scrolls);
+  tap BPM there to flash the tempo.
 - Bluetooth page-turner pedals work: ←/→ change songs, ↑/↓ move the section marker.
 - Keeps the screen awake while open (where the browser allows it), and works offline once loaded.
 - On iPhone: open it in Safari → Share → **Add to Home Screen** for a full-screen app.
