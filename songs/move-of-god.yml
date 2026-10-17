@@ -1,0 +1,68 @@
+title: Move of God
+artist: SEU Worship
+key: Bb
+bpm: 97
+length: "5:21"
+
+sections:
+  - name: Intro
+    x: 2
+    level: 4
+    cue: "Big tom groove"
+    detail: "Opener – two passes of the big tom groove."
+  - name: V1
+    level: 1
+    cue: "Quiet hats 16ths"
+    detail: "No snare yet."
+  - name: V2
+    level: 2
+    cue: "Quiet hats 16ths, add snare"
+  - name: Chorus
+    level: 1
+    cue: "Out – hits only, build at end"
+    detail: "Lay out except for the hits, then build back in at the end into the refrain."
+    hot: true
+  - name: Refrain
+    level: 3
+    cue: "Big tom groove, less loud"
+  - name: V3
+    level: 2>4
+    cue: "Light tom groove, then build"
+    detail: "Light tom groove, then build into the chorus."
+  - name: Chorus
+    level: 4
+    cue: "Big tom groove"
+  - name: Refrain
+    level: 4
+    cue: "Big tom groove, keep going"
+  - name: Interlude
+    level: 2
+    cue: "Rims with kick"
+  - name: Bridge 1
+    level: 2
+    cue: "Rims with kick, keep going"
+  - name: Bridge 2
+    level: 3
+    cue: "Hats, snare, 4 on floor"
+  - name: Bridge 3
+    level: 4
+    cue: "Big tom groove, then build"
+    detail: "Big tom groove, then a straight build."
+  - name: Chorus
+    level: 4
+    cue: "Half-time, then build"
+    detail: "Feel change – half-time, then build out of it."
+    hot: true
+  - name: Chorus
+    level: 5
+    cue: "Big washy hats groove"
+    detail: "Big, washy open-hats groove – not toms."
+  - name: Bridge
+    x: 3
+    level: 5
+    cue: "Crash the ride, with snare"
+    detail: "Final bridge passes."
+  - name: End
+    level: 0
+    cue: "Breakdown – drums out"
+    hot: true

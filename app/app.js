@@ -91,7 +91,7 @@
   // Keep a number with the word before it, and keep a kick count ("kick 1 · 2a · 3&") together so a
   // wrap moves the whole count to the next line; a count too long for a line breaks only after a "·".
   const KICK = /kick \d[ea&]?(?: · \d[ea&]?)*/gi;
-  const glue = (t) => esc(t).replace(/ · /g, "\u00a0· ").replace(/([^·\s]) (\d)/g, "$1\u00a0$2");
+  const glue = (t) => esc(t).replace(/ · /g, "\u00a0· ").replace(/([^·\s]) (\d)/g, "$1\u00a0$2").replace(/\b4 on floor\b/g, "4\u00a0on\u00a0floor");
   const cueHtml = (c) => {
     let out = "", last = 0;
     for (const m of c.matchAll(KICK)) {

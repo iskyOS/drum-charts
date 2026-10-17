@@ -1,0 +1,99 @@
+title: The Power of the Living God
+key: A
+bpm: 69
+note: "Perissos cut. You're out until the turn."
+
+sections:
+  - name: Intro
+    level: 1
+    cue: "Light ride"
+    detail: "Find the click and add light ride color under the intro."
+  - name: V1
+    level: 0
+    cue: "Drums out"
+    detail: "'When Jesus walks in.' Vocal and pads."
+  - name: Chorus
+    level: 1
+    cue: "Splashy cymbal – no groove"
+    detail: "No groove yet – splashy cymbal color riding the chorus swells."
+  - name: Turn
+    level: 2
+    cue: "Ride 16ths, lightly"
+    detail: "First entrance."
+  - name: V2
+    level: 2
+    cue: "Light tom groove"
+    detail: "'Train of His robe.'"
+  - name: Chorus
+    level: 3
+    cue: "Toms, snare on 3, fill out"
+    detail: "Bigger tom groove, add snare on 3. Fill out of the section – then out for the interlude."
+    hot: true
+  - name: Interlude
+    level: 0
+    cue: "Drums out"
+  - name: Bridge 1
+    level: 1
+    cue: "Out, then light ride build"
+    detail: "'Chain-breaking.' Stay out through the front, sneak in a light ride build in the back half."
+  - name: Bridge 2
+    level: 2
+    cue: "Toms build, kick 1 · 3, fill"
+    detail: "'Heart-saving.' Toms building, kick 1 · 3. Fill out into the next cycle."
+  - name: Bridge 3
+    level: 3>4
+    cue: "Build: floor tom, then snare"
+    detail: "First half: straight build on floor tom and kick. Second half: switch to kick and snare, straight build into the chorus."
+  - name: Chorus
+    level: 5
+    cue: "Heavy ride and kick groove"
+    detail: "The big chorus – land it on 1."
+    hot: true
+  - name: Bridge 1
+    level: 5
+    cue: "4 on floor, crashes, snare"
+    detail: "Quarter-note kick, crashes with snare doubles – the shout section starts."
+  - name: Bridge 2
+    level: 5
+    cue: "Big kick and snare groove"
+    detail: "Maximum to the last bar."
+  - name: End
+    level: 4
+    cue: "Crash out"
+    detail: "Crash the ending with the band."
+    hot: true
+
+variants:
+  reprise:
+    note: "After the sermon. Same parts as the main song from Bridge 2 on."
+    sections:
+      - name: Ring in
+        level: 3
+        cue: "Ring in on the 1"
+        detail: "Big chord ring with the band on the downbeat as tracks fire. Find the click fast and lock in."
+        hot: true
+      - name: Bridge 2
+        level: 2
+        cue: "Toms build, kick 1 · 3, fill"
+        detail: "'Heart-saving.' Toms building, kick 1 · 3. Fill out into Bridge 3."
+      - name: Bridge 3
+        level: 3>4
+        cue: "Build: floor tom, then snare"
+        detail: "First half: straight build on floor tom and kick. Second half: switch to kick and snare, straight build into the chorus."
+      - name: Chorus
+        level: 5
+        cue: "Heavy ride and kick groove"
+        detail: "Land it on 1."
+        hot: true
+      - name: Bridge 1
+        level: 5
+        cue: "4 on floor, crashes, snare"
+        detail: "Quarter-note kick, crashes with snare doubles."
+      - name: Bridge 2
+        level: 5
+        cue: "Big kick and snare groove"
+      - name: End
+        level: 4
+        cue: "Ring the 4 big"
+        detail: "Instead of crashing out, a big sustained ring on the 4 chord – wash and hold with the band."
+        hot: true

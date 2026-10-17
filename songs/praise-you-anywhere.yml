@@ -1,0 +1,64 @@
+title: Praise You Anywhere
+key: A
+bpm: 108
+note: "Rims verses, hats 16ths on every chorus, and a two-pass bridge with a four-stage build. End big on the 1."
+
+sections:
+  - name: Intro
+    level: 4
+    cue: "Rumble in, then hats 16ths"
+    detail: "Rumble in big, land the 1, settle into the hats 16ths groove."
+  - name: V1
+    level: 2
+    cue: "Rims, low"
+    detail: "Rims groove, low. Kick with the bass."
+  - name: V2
+    level: 2
+    cue: "Rims low, out last bar"
+    detail: "Same rims groove, then drop completely out for the last bar before the chorus. Clean exit, no fill."
+    hot: true
+  - name: Chorus
+    level: 4
+    cue: "Hats 16ths"
+  - name: Vamp
+    level: 4
+    cue: "Same groove"
+  - name: V3
+    level: 2
+    cue: "Rims, tom fill, out last beat"
+    detail: "Light hats holding the beat for the first 2 bars, then rims at medium. Big tom fill on the verse outro, then out on the last beat before the chorus."
+    hot: true
+  - name: Chorus
+    x: 2
+    level: 4
+    cue: "Hats 16ths"
+  - name: Interlude
+    level: 0
+    cue: "Drums out"
+    hot: true
+  - name: Bridge 1
+    level: 1
+    cue: "Out, then snare roll, no kick"
+    detail: "'Faithful all my life.' Start out – vocals and band only. Bring in a single-stroke snare roll as it builds. Still no kick."
+  - name: Bridge 2
+    level: 3>4
+    cue: "Add kick, accents, crashes"
+    detail: "Kick and snare accents come in, then crashes and full snare by the back half. This pass launches the chorus."
+  - name: Chorus
+    level: 5
+    cue: "Out 1st bar, then hats 16ths"
+    detail: "The band hits the chorus without you for one bar, then slam back in with hats 16ths. Count it – don't jump early."
+    hot: true
+  - name: Outro
+    x: 2
+    level: 4
+    cue: "Hats 16ths"
+  - name: Vamp
+    level: 3
+    cue: "Keep going – watch Adam"
+    detail: "Hold it while Adam sets up the ending."
+  - name: End
+    level: 5
+    cue: "Big hit on 1"
+    detail: "Big unison hit on the downbeat. Ring or choke per Adam."
+    hot: true

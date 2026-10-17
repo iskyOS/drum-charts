@@ -1,0 +1,184 @@
+title: I Know a Name
+key: Eb
+bpm: 86
+time: 6/8
+length: "5:20"
+note: "Perissos cut."
+
+sections:
+  - name: Intro
+    x: 3
+    level: 1
+    cue: "Light hats under the pad"
+  - name: V1
+    level: 1
+    cue: "Light ride – just color"
+    detail: "Sprinkle in light ride. Just color, no groove yet."
+  - name: Chorus 1 + 2
+    level: 3
+    cue: "Ride and kick"
+  - name: Turn
+    level: 0
+    cue: "Drums out"
+    hot: true
+  - name: V2
+    level: 2
+    cue: "Hats and snare"
+  - name: Chorus 1 + 2
+    level: 3
+    cue: "Ride and snare groove"
+  - name: Refrain
+    level: 2
+    cue: "Just hats"
+  - name: Bridge 1
+    level: 2
+    cue: "Add floor tom pushes"
+    detail: "'Where oh death' – first pass of the bridge (B2 on the map)."
+  - name: Bridge 2
+    level: 3
+    cue: "Add kick on 2 & 4"
+  - name: Bridge 3
+    level: 4
+    cue: "4 on floor, ride, floor tom"
+    detail: "4 on floor, big ride and floor tom."
+  - name: Refrain
+    x: 2
+    level: 4
+    cue: "Big tom beat"
+  - name: Refrain 3
+    level: 4
+    cue: "Add ride to the tom beat"
+  - name: Refrain 4
+    level: 4>5
+    cue: "Straight build into triplets"
+    detail: "Straight build into the triplet outro."
+    hot: true
+  - name: Chorus 1 + 2
+    level: 4
+    cue: "Ride and snare groove"
+  - name: Bridge
+    level: 5
+    cue: "Big – hats, triplet kick"
+    detail: "Hats groove with triplet kick. Big."
+  - name: Instrumental
+    level: 4
+    cue: "Ride groove"
+  - name: Chorus ×2 + End
+    level: 0
+    cue: "Drums out to the end"
+    detail: "Low chorus – keys and pad only. Stay out through the ending."
+    hot: true
+
+variants:
+  reprise:
+    length: "2:30"
+    note: "After the sermon – picks up at the bridge, same parts as the full song."
+    sections:
+      - name: Bridge 1
+        level: 2
+        cue: "Floor tom pushes"
+        detail: "Come in from the sermon. 'Where oh death'."
+        hot: true
+      - name: Bridge 2
+        level: 3
+        cue: "Add kick on 2 & 4"
+      - name: Bridge 3
+        level: 4
+        cue: "4 on floor, ride, floor tom"
+        detail: "4 on floor, big ride and floor tom."
+      - name: Refrain
+        x: 2
+        level: 4
+        cue: "Big tom beat"
+      - name: Refrain 3
+        level: 4
+        cue: "Add ride to the tom beat"
+      - name: Refrain 4
+        level: 4>5
+        cue: "Straight build into triplets"
+        detail: "Straight build into the triplet outro."
+        hot: true
+      - name: Chorus 1 + 2
+        level: 4
+        cue: "Ride and snare groove"
+      - name: Bridge
+        level: 5
+        cue: "Big – hats, triplet kick"
+        detail: "Hats groove with triplet kick. Big."
+      - name: Instrumental
+        level: 4
+        cue: "Ride groove"
+      - name: Chorus ×2 + End
+        level: 0
+        cue: "Drums out to the end"
+        detail: "Low chorus – keys and pad only. Stay out through the ending."
+        hot: true
+
+  june:
+    note: "Mind the 6/8. The end choruses stay big – the drop to click, keys and pad comes after the song."
+    sections:
+      - name: Intro
+        level: 5
+        cue: "Big 6/8 groove, then cut"
+        detail: "Big – full 6/8 groove, crash on the pulse. Then cut."
+      - name: V1
+        level: 0
+        cue: "Drums out – keys and pad"
+        hot: true
+      - name: Chorus 1
+        level: 4
+        cue: "Ride, kick 1, snare on 4"
+        detail: "Come in: 6/8 groove on the ride – kick on 1, snare on 4."
+      - name: Chorus 2
+        level: 4
+        cue: "Same groove – push"
+      - name: Turn
+        level: 0
+        cue: "Drums out"
+        detail: "Keys and pad through the turn."
+        hot: true
+      - name: V2
+        level: 2
+        cue: "Hats 8ths, backbeat"
+        detail: "Hats 8ths, backbeat, simple kick."
+      - name: Chorus 1
+        level: 4
+        cue: "6/8 ride groove – drive"
+      - name: Chorus 2
+        level: 4
+        cue: "Push – bigger"
+      - name: Refrain
+        level: 2
+        cue: "Quiet ride groove"
+        detail: "Quiet 6/8 groove on the ride – keep it soft."
+      - name: Bridge 1
+        level: 3
+        cue: "Hats"
+        detail: "'Dead things come alive.'"
+      - name: Bridge 2
+        level: 4
+        cue: "Ride"
+      - name: Bridge 3
+        level: 5
+        cue: "Full, with crashes"
+        hot: true
+      - name: Chorus 1 + 2
+        level: 4
+        cue: "Toms – no ride"
+        detail: "Drum instrumental – tom groove, no ride cymbal."
+      - name: Bridge
+        level: 4
+        cue: "Ride and toms – big"
+      - name: Instrumental
+        level: 4>5
+        cue: "Triplet build"
+        detail: "Turns into a triplet build – crescendo up into the end."
+      - name: Chorus 1
+        level: 5
+        cue: "Big – ride bell, crashes"
+      - name: Chorus 2
+        level: 5
+        cue: "Stay big"
+      - name: End
+        level: 5
+        cue: "Big ending – final hits"

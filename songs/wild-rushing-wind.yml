@@ -1,0 +1,75 @@
+title: Wild Rushing Wind
+artist: SEU Worship
+key: D
+bpm: 73
+note: "Slow half-time at 73 – don't rush the builds. Song ends drums out."
+
+sections:
+  - name: Intro
+    level: 0
+    cue: "Drums out"
+    detail: "Out for the whole intro."
+    hot: true
+  - name: V1
+    level: 1
+    cue: "One swell, then out"
+  - name: V2
+    level: 1
+    cue: "Kick 1, light floor tom"
+    detail: "Kick on the 1, then a little light floor tom underneath. Still sparse."
+  - name: Pre-Chorus
+    level: 2
+    cue: "Hats 16ths, no snare"
+    detail: "Closed hats 16ths, no snare. Keep it tight and even."
+  - name: Chorus
+    level: 1
+    cue: "Out, then kick 2 · 4"
+    detail: "First half of the chorus out. Back half: kick 2 · 4 only, nothing else."
+    hot: true
+  - name: Vamp
+    level: 1
+    cue: "Swells only"
+  - name: Pre-Chorus
+    level: 3>4
+    cue: "4 on floor, toms – big build"
+    detail: "4 on floor with a tom groove. Build hard into the chorus – the first real lift."
+    hot: true
+  - name: Chorus
+    level: 4
+    cue: "Ride, kick and snare groove"
+  - name: Vamp
+    level: 2
+    cue: "Closed hats quarters"
+    detail: "Reset for the bridge."
+  - name: Bridge 1
+    level: 2
+    cue: "Hats, high tom accents"
+  - name: Bridge 2
+    level: 3
+    cue: "Snare 16ths, kick 1 · 3"
+    detail: "Snare 16ths (roll), kick 1 · 3."
+  - name: Bridge 3
+    level: 4
+    cue: "Snare 16ths, 4 on floor, toms"
+  - name: Tag 1
+    x: 3
+    level: 4>5
+    cue: "Straight build: snare, ride"
+    detail: "Straight build across all three passes on snare and ride."
+  - name: Vamp
+    level: 4
+    cue: "Kick 8ths build, then drop out"
+    detail: "Kick 8ths, build big, then drop out completely before the chorus hits."
+    hot: true
+  - name: Chorus
+    level: 5
+    cue: "Full – ride, kick, snare"
+    detail: "Biggest point of the song."
+  - name: Tag 2
+    level: 2
+    cue: "Light ride and toms, fade"
+    detail: "Light ride with toms, fade down to nothing."
+  - name: Chorus + End
+    level: 0
+    cue: "Drums out"
+    detail: "Stay out. The song ends without drums."

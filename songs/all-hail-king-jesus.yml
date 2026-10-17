@@ -1,0 +1,63 @@
+title: All Hail King Jesus
+key: E
+bpm: 74
+note: "This arrangement ends after the last refrain: one big Chorus 1, then ring the 4."
+
+sections:
+  - name: Intro · V1 · V2
+    level: 0
+    cue: "Drums out until pre-chorus"
+    hot: true
+  - name: Pre-Chorus
+    level: 2
+    cue: "Kick and ride accents"
+    detail: "'Earth began to shake.' First entrance – kick pulse with ride accents on the swells."
+  - name: Chorus
+    level: 3
+    cue: "Floor tom and kick, slow"
+    detail: "Timekeeping on the floor tom with kick, wide slow feel. No full kit yet."
+  - name: Breakdown
+    x: 2
+    level: 3
+    cue: "Ride 16ths"
+  - name: V3
+    level: 2
+    cue: "Hats 16ths, low"
+    detail: "'Sky lit up.'"
+  - name: Pre-Chorus
+    level: 3
+    cue: "Kick accents, hats 16ths"
+    detail: "Kick accents under hats 16ths, kept low."
+  - name: Vamp
+    level: 3>4
+    cue: "Floor tom build, 2 bars"
+    detail: "Straight floor tom build through the vamp, launching the chorus."
+    hot: true
+  - name: Chorus
+    level: 4
+    cue: "Floor tom and kick, bigger"
+  - name: Chorus
+    level: 4
+    cue: "4 on floor, snare rolls on 3"
+    detail: "4 on floor, snare rolls on beat 3, then a big fill out into the instrumental."
+  - name: Instrumental
+    level: 4
+    cue: "Straight kick and floor tom"
+    detail: "Kick and floor tom locked with the band figure."
+  - name: Bridge
+    level: 3
+    cue: "Floor tom and snare build"
+    detail: "'Let every knee.' Floor tom and snare building through the passes, straight snare roll across the last 4 bars."
+  - name: Refrain
+    level: 4
+    cue: "Ride groove"
+  - name: Chorus 1
+    level: 5
+    cue: "Big – the ending chorus"
+    detail: "The last refrain lands into one big Chorus 1 – full kit, everything open. No down chorus."
+    hot: true
+  - name: End
+    level: 4
+    cue: "Ring the 4"
+    detail: "Ring out on the 4 chord with the band, then out clean."
+    hot: true
