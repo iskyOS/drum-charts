@@ -74,18 +74,18 @@ sections:
 variants:
   reprise:
     length: "3:00"
-    note: "Steph: two big bridges, then two big choruses, end big on the 1. Parts taken from the main song's build-back bridges and big chorus."
+    note: "Steph: two big bridges, then two big choruses, end big on the 1. Choruses use the main song's big chorus groove."
     sections:
       - name: Bridge 1
         level: 4
-        cue: 4 on floor, quarter crashes
+        cue: Quarter crashes, 4 on floor
         crashes: true
-        detail: Big from the top. 4 on floor and quarter crashes (from the build-back Bridge 2).
+        detail: Big from the top. Crash and kick together on every beat (quarter crashes, 4 on floor).
         hot: true
       - name: Bridge 2
         level: 5
-        cue: Ride, kick beat, backbeat
-        detail: Ride, kick beat, backbeat (from the build-back Bridge 3).
+        cue: Ride and hats 8ths, snare on 1
+        detail: Move to 8th notes on the ride and hats together, with the snare on 1.
       - name: Chorus
         x: 2
         level: 5
