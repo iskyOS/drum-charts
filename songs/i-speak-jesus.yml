@@ -84,8 +84,8 @@ variants:
         hot: true
       - name: Bridge 2
         level: 5
-        cue: Ride and hats 8ths, snare on 1
-        detail: Move to 8th notes on the ride and hats together, with the snare on 1.
+        cue: Kick, ride and hats 8ths, snare on 1
+        detail: Move to 8th notes on the kick, ride and hats together (kick 8ths), with the snare on 1.
       - name: Chorus
         x: 2
         level: 5
