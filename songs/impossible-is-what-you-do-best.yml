@@ -1,0 +1,32 @@
+title: Impossible Is What You Do Best
+artist: River Valley Worship
+key: A
+status: draft
+note: "Draft – section map from the chord chart. Parts, BPM and length not confirmed yet."
+
+sections:
+  - name: V1
+    level: 1
+    cue: Light – rims, 4 on floor
+    detail: Light. Rims with a soft 4 on floor.
+  - name: V2
+    level: 2
+    cue: Add hats 8ths, build
+    detail: Add hats 8ths and build into the chorus.
+  - name: Chorus
+    level: 4
+    cue: Backbeat, ride 8ths
+    detail: Full groove. Backbeat, ride 8ths. Fill into the bridge.
+  - name: Bridge
+    level: 3>5
+    cue: Build – "I lift my hands"
+    detail: The "I lift my hands to the Healer" section. Start on toms and build into the vamp.
+  - name: Vamp
+    level: 5
+    cue: Big – crash on 1
+    detail: Big and steady. Crash on 1, 4 on floor.
+  - name: Tag
+    level: 2
+    cue: Pull back – "Jesus my Healer"
+    detail: Pull back for "Jesus my Healer" and ring on 4 to end.
+    hot: true
