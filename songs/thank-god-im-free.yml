@@ -78,7 +78,7 @@ sections:
     detail: Washy. Quarter notes on open hats, floor tom triplets.
   - name: Bridge 2
     level: 4
-    cue: Crashes, floor tom triplets
+    cue: 4 on floor, floor tom triplets
     crashes: true
     detail: Quarter crashes, 4 on floor, floor tom triplets.
   - name: Refrain
