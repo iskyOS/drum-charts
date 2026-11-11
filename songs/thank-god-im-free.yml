@@ -202,13 +202,13 @@ variants:
         detail: 4 on floor, quarter crashes, offbeat floor tom.
       - name: Half Chorus
         level: 4
-        cue: Drums only – half a chorus
-        detail: Drums only for the first half of the chorus.
+        cue: Drums only – snare 16ths
+        detail: Drums only for the first half of the chorus. 4 on floor, snare 16ths, like the Act 3 chorus.
         hot: true
       - name: Band In
         level: 5
-        cue: Band back in, second half
-        detail: The band comes back in for the second half of the chorus.
+        cue: Band in – hats 16ths
+        detail: The band comes back in for the second half of the chorus. Big – hats 16ths with snare accents, 4 on floor.
       - name: End
         level: 5
         cue: Intro hits, rumble big on 1
