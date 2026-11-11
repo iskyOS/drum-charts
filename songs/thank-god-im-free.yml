@@ -102,3 +102,115 @@ sections:
     cue: Cymbal hits, let ring
     detail: Cymbal hits and let them ring out.
     hot: true
+
+variants:
+  cut:
+    length: "5:01"
+    note: "Cut arrangement – listen to the Cut Arrangement recording. To end: drums-only half chorus, band back in for the second half, then the intro hits and a big rumble on 1."
+    sections:
+      - name: Intro
+        part: Act 1 · Opener
+        level: 4
+        cue: Quarter crashes
+        crashes: true
+        detail: Quarter crashes through the intro.
+      - name: V1
+        level: 2
+        cue: Quiet – hats 16ths, 4 on floor
+        detail: Quiet. Hats 16ths with triplet accents, 4 on floor.
+      - name: V2
+        level: 2>4
+        cue: Same as V1, build to chorus
+        detail: Same as V1, then a straight build into the chorus.
+      - name: Chorus
+        level: 4
+        cue: Snare 16ths, kick 3 · 4 · 1
+        detail: Snare 16ths with triplet accents. Kick 3 · 4 · 1 at the end of every 2nd bar.
+      - name: Post
+        level: 4
+        cue: Add 4 on floor
+        detail: Keep the chorus groove, add 4 on floor.
+      - name: Turn
+        level: 3
+        cue: Quarter crashes, then fill
+        crashes: true
+        detail: Quarter crashes, then a fill into V3.
+      - name: V3
+        part: Act 2 · Big build
+        level: 3>4
+        cue: 4 on floor, light floor tom
+        detail: 4 on floor, light floor tom beat. Build into the chorus.
+      - name: Chorus
+        level: 5
+        cue: Big – hats 16ths, 4 on floor
+        detail: Big. Hats 16ths with snare accents, 4 on floor.
+      - name: Post
+        level: 4
+        cue: Keep going, then quiet fill
+        detail: Keep the groove going, then a quiet fill into the low bridge.
+      - name: Bridge 1
+        level: 2
+        cue: Low – floor tom triplets
+        detail: Low. Floor tom triplets. Kick 3 · 4 · 1 at the end of every 2nd bar.
+      - name: Bridge 2
+        level: 3>4
+        cue: Add 4 on floor, kick 8ths
+        detail: Add 4 on floor, then a big kick 8ths build into the last bridge.
+      - name: Bridge 3
+        level: 5
+        cue: Big – snare hits on 3 & 4
+        detail: Big. Hats 16ths, 4 on floor. Snare hits on 3 & 4 every other bar.
+      - name: Refrain
+        level: 5
+        cue: Quarter crashes, triplet kick
+        crashes: true
+        detail: Big. Quarter crashes, triplet kick every bar. Build into the chorus.
+      - name: Chorus
+        part: Act 3 · Finale
+        level: 4
+        cue: Drums only – snare 16ths
+        detail: Drums only. 4 on floor, snare 16ths.
+        hot: true
+      - name: Post
+        level: 5
+        cue: 4 on floor, hats 16ths
+        detail: 4 on floor, hats 16ths with snare accents.
+      - name: Bridge 1
+        level: 3
+        cue: Open hats, floor tom triplets
+        detail: Washy. Quarter notes on open hats, floor tom triplets.
+      - name: Bridge 2
+        level: 4
+        cue: Crashes, floor tom triplets
+        crashes: true
+        detail: Quarter crashes, 4 on floor, floor tom triplets.
+      - name: Refrain
+        level: 5
+        cue: Kick triplets, then snare
+        crashes: true
+        detail: "First half: quarter crashes, triplet kick. Second half: quarter crashes, snare triplets, 4 on floor."
+      - name: Post 1
+        level: 5
+        cue: Snare hits on "way I was"
+        crashes: true
+        detail: Quarter crashes. Snare hits on "way I was".
+        hot: true
+      - name: Post 2
+        level: 5
+        cue: Crashes, offbeat floor tom
+        crashes: true
+        detail: 4 on floor, quarter crashes, offbeat floor tom.
+      - name: Half Chorus
+        level: 4
+        cue: Drums only – half a chorus
+        detail: Drums only for the first half of the chorus.
+        hot: true
+      - name: Band In
+        level: 5
+        cue: Band back in, second half
+        detail: The band comes back in for the second half of the chorus.
+      - name: End
+        level: 5
+        cue: Intro hits, rumble big on 1
+        detail: "End with the intro hits (6, 4, hits on 4 and 3, then 1). Rumble big on the 1."
+        hot: true
