@@ -1,32 +1,63 @@
 title: Impossible Is What You Do Best
 artist: River Valley Worship
 key: A
+bpm: 76
+time: 6/8
 status: draft
-note: "Draft – section map from the chord chart. Parts, BPM and length not confirmed yet."
+note: "Draft – the section order is from the arrangement. The drum parts are placeholders until confirmed."
 
 sections:
+  - name: Intro
+    part: Act 1 · Opener
+    level: 1
+    cue: Cymbal swells
+    detail: Light cymbal swells into V1.
   - name: V1
     level: 1
-    cue: Light – rims, 4 on floor
-    detail: Light. Rims with a soft 4 on floor.
+    cue: Light – rims, soft kick
+    detail: Light. Rims with a soft kick on 1 and 4.
+  - name: Chorus
+    level: 3
+    cue: Backbeat, hats 8ths
+    detail: Settle into the 6/8 groove. Backbeat, hats 8ths.
   - name: V2
     level: 2
-    cue: Add hats 8ths, build
-    detail: Add hats 8ths and build into the chorus.
+    cue: Pull back, keep hats 8ths
+    detail: Pull back from the chorus but keep the hats moving.
   - name: Chorus
+    x: 2
     level: 4
-    cue: Backbeat, ride 8ths
-    detail: Full groove. Backbeat, ride 8ths. Fill into the bridge.
+    cue: Full – ride 8ths
+    detail: Full groove on the ride. Fill into the bridge.
   - name: Bridge
+    part: Act 2 · Big build
+    x: 2
     level: 3>5
-    cue: Build – "I lift my hands"
-    detail: The "I lift my hands to the Healer" section. Start on toms and build into the vamp.
+    cue: Build on toms
+    detail: Start on toms and build into the vamp.
   - name: Vamp
     level: 5
     cue: Big – crash on 1
-    detail: Big and steady. Crash on 1, 4 on floor.
-  - name: Tag
+    detail: Big and steady, crash on 1.
+  - name: Chorus
+    level: 4
+    cue: Full – ride 8ths
+  - name: Interlude
+    level: 3
+    cue: Hold the groove, fill
+    detail: Hold the groove, fill into the post.
+  - name: Post
+    part: Act 3 · Finale
+    x: 4
+    level: 4>5
+    cue: Build each pass
+    detail: Build a little each time through.
+  - name: Bridge
+    x: 2
+    level: 5
+    cue: Big – crash on 1
+  - name: End
     level: 2
-    cue: Pull back – "Jesus my Healer"
-    detail: Pull back for "Jesus my Healer" and ring on 4 to end.
+    cue: Pull back, ring on 4
+    detail: Pull back and ring on 4 to end.
     hot: true
