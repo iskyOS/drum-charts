@@ -3,50 +3,62 @@ artist: Hillsong Worship
 key: D
 bpm: 68
 time: 4/4
-length: "4:25"
+length: "4:30"
 status: draft
-note: "Draft from the recording – parts not confirmed yet."
+note: "Play the full song as written. Tag big, end big. The section order is from the arrangement, and the drum parts are placeholders until confirmed."
 
 sections:
   - name: Intro
+    part: Act 1 · Verses 1 and 2
     level: 0
     cue: Drums out – cymbal swell
-    detail: Drums out under the intro hook. Cymbal swell into V1.
+    detail: Drums out under the intro. Cymbal swell into V1.
   - name: V1
     level: 1
     cue: Light floor tom, rims
     detail: Light floor tom beat with rims. Keep it soft.
-  - name: Chorus 1
+  - name: Turn
+    level: 1
+    cue: Same groove, small fill
+  - name: Chorus
     level: 2
     cue: Light backbeat, hats 8ths
     detail: Ease in with a light backbeat and hats 8ths.
+  - name: Turn
+    level: 2
+    cue: Pull back for V2
   - name: V2
     level: 2
-    cue: Same as V1, a little more
+    cue: Floor tom and rims
     detail: Back to floor tom and rims, a little fuller than V1.
-  - name: Chorus 2
-    level: 3
+  - name: Turn
+    level: 2>3
+    cue: Build into the chorus
+  - name: Chorus
+    part: Act 2 · Big chorus
+    level: 4
     cue: Backbeat, ride 8ths
-    detail: Full groove on the ride. Fill into the bridge.
-  - name: Bridge
+    detail: Full groove on the ride.
+  - name: Turn
+    level: 3
+    cue: Pull back for V3
+  - name: V3
+    level: 3
+    cue: Hats 8ths, 4 on floor
+  - name: V4
     level: 3>5
-    cue: Build – toms, then crashes
-    detail: Start on toms and build each pass, opening up to crashes for the last pass. Fill into the chorus.
-  - name: Chorus 3
+    cue: Build through the verse
+    detail: Build through V4 and fill into the turn.
+  - name: Turn
+    part: Act 3 · Finale
+    level: 5
+    cue: Big – crash on 1
+  - name: Chorus
     level: 5
     cue: Big – ride 8ths, crash on 1
     detail: Biggest chorus. Ride 8ths, crash on 1 every bar.
-  - name: V3
+  - name: Low Chorus
     level: 1
-    cue: Drop way down, rims
-    detail: Drop down for the last verse. Rims and light kick.
-    hot: true
-  - name: Chorus 4
-    level: 4
-    cue: Backbeat, build to the end
-    detail: Back in with a backbeat and build through the chorus.
-  - name: End
-    level: 2
-    cue: Pull back, ring on 4
-    detail: Pull back for the tag and ring on 4 to end.
+    cue: Drop way down, then tag big
+    detail: Drop way down for the low chorus. Then tag big and end big.
     hot: true
