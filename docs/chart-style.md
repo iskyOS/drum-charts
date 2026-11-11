@@ -66,5 +66,7 @@ Structure:
 - Counts are short enough for the stage cue. Use them there when the kick pattern is what changes
   in that section.
 - Common patterns: `kick 1 · 3&` · `kick 1 · 2a · 3&` · `kick 3 · 4 · 1`
+- Named patterns (use the name in the cue, spell out the count in the longhand):
+  - **anthem kick**: `kick 1 · 1a · 3a · 4` (King of Kings, last chorus)
 
 `python3 scripts/build.py` warns (without failing) when a cue is likely too long for one line.
