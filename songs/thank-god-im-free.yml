@@ -105,8 +105,8 @@ sections:
 
 variants:
   cut:
-    length: "5:01"
-    note: "Cut arrangement – listen to the Cut Arrangement recording. To end: drums-only half chorus, band back in for the second half, then the intro hits and a big rumble on 1."
+    length: "4:00"
+    note: "Cut arrangement – listen to the Cut Arrangement recording. Same sections as the regular chart, shorter passes. Last chorus: drums only for the first half, band back in for the second. End on the intro hits with a big rumble on 1."
     sections:
       - name: Intro
         part: Act 1 · Opener
@@ -168,8 +168,8 @@ variants:
       - name: Chorus
         part: Act 3 · Finale
         level: 4
-        cue: Drums only – snare 16ths
-        detail: Drums only. 4 on floor, snare 16ths.
+        cue: Drums only half, then band in
+        detail: "Drums only for the first half: 4 on floor, snare 16ths. The band comes back in for the second half."
         hot: true
       - name: Post
         level: 5
@@ -200,15 +200,6 @@ variants:
         cue: Crashes, offbeat floor tom
         crashes: true
         detail: 4 on floor, quarter crashes, offbeat floor tom.
-      - name: Half Chorus
-        level: 4
-        cue: Drums only – snare 16ths
-        detail: Drums only for the first half of the chorus. 4 on floor, snare 16ths, like the Act 3 chorus.
-        hot: true
-      - name: Band In
-        level: 5
-        cue: Band in – hats 16ths
-        detail: The band comes back in for the second half of the chorus. Big – hats 16ths with snare accents, 4 on floor.
       - name: End
         level: 5
         cue: Intro hits, rumble big on 1
