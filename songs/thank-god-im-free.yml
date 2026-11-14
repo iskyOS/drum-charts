@@ -106,7 +106,7 @@ sections:
 variants:
   cut:
     length: "4:00"
-    note: "Cut arrangement – listen to the Cut Arrangement recording. Same sections as the regular chart, shorter passes. Last chorus: drums only for the first half, band back in for the second. End on the intro hits with a big rumble on 1."
+    note: "Cut arrangement – the song ends after the Act 3 post. Last chorus: drums only for the first half, band back in for the second. Then the intro hits and a big rumble on 1 to end. No last bridges, refrain or posts."
     sections:
       - name: Intro
         part: Act 1 · Opener
@@ -175,31 +175,6 @@ variants:
         level: 5
         cue: 4 on floor, hats 16ths
         detail: 4 on floor, hats 16ths with snare accents.
-      - name: Bridge 1
-        level: 3
-        cue: Open hats, floor tom triplets
-        detail: Washy. Quarter notes on open hats, floor tom triplets.
-      - name: Bridge 2
-        level: 4
-        cue: Crashes, floor tom triplets
-        crashes: true
-        detail: Quarter crashes, 4 on floor, floor tom triplets.
-      - name: Refrain
-        level: 5
-        cue: Kick triplets, then snare
-        crashes: true
-        detail: "First half: quarter crashes, triplet kick. Second half: quarter crashes, snare triplets, 4 on floor."
-      - name: Post 1
-        level: 5
-        cue: Snare hits on "way I was"
-        crashes: true
-        detail: Quarter crashes. Snare hits on "way I was".
-        hot: true
-      - name: Post 2
-        level: 5
-        cue: Crashes, offbeat floor tom
-        crashes: true
-        detail: 4 on floor, quarter crashes, offbeat floor tom.
       - name: End
         level: 5
         cue: Intro hits, rumble big on 1
