@@ -3,61 +3,72 @@ artist: River Valley Worship
 key: A
 bpm: 76
 time: 6/8
-status: draft
-note: "Draft – the section order is from the arrangement. The drum parts are placeholders until confirmed."
 
 sections:
   - name: Intro
     part: Act 1 · Opener
-    level: 1
-    cue: Cymbal swells
-    detail: Light cymbal swells into V1.
+    level: 0
+    cue: Drums out
   - name: V1
-    level: 1
-    cue: Light – rims, soft kick
-    detail: Light. Rims with a soft kick on 1 and 4.
+    level: 0
+    cue: Out – swell into chorus
+    detail: Drums out, cymbal swell into the chorus.
   - name: Chorus
-    level: 3
-    cue: Backbeat, hats 8ths
-    detail: Settle into the 6/8 groove. Backbeat, hats 8ths.
+    level: 0
+    cue: Out – swell into V2
+    detail: Drums out, cymbal swell into V2.
   - name: V2
     level: 2
-    cue: Pull back, keep hats 8ths
-    detail: Pull back from the chorus but keep the hats moving.
-  - name: Chorus
-    x: 2
-    level: 4
-    cue: Full – ride 8ths
-    detail: Full groove on the ride. Fill into the bridge.
-  - name: Bridge
-    part: Act 2 · Big build
-    x: 2
-    level: 3>5
-    cue: Build on toms
-    detail: Start on toms and build into the vamp.
-  - name: Vamp
-    level: 5
-    cue: Big – crash on 1
-    detail: Big and steady, crash on 1.
-  - name: Chorus
-    level: 4
-    cue: Full – ride 8ths
-  - name: Interlude
-    level: 3
-    cue: Hold the groove, fill
-    detail: Hold the groove, fill into the post.
-  - name: Post
-    part: Act 3 · Finale
-    x: 4
-    level: 4>5
-    cue: Build each pass
-    detail: Build a little each time through.
-  - name: Bridge
-    x: 2
-    level: 5
-    cue: Big – crash on 1
-  - name: End
-    level: 2
-    cue: Pull back, ring on 4
-    detail: Pull back and ring on 4 to end.
+    cue: Hats 16ths, out last bar
+    detail: Hats 16ths, kick on 1, snare on 3. Drums out for the last bar before the chorus.
     hot: true
+  - name: Chorus
+    x: 2
+    level: 3
+    cue: Hats 16ths, kick 1
+    detail: Hats 16ths, kick on 1. Snare on 1 every other bar.
+  - name: Bridge 1
+    part: Act 2 · Bridge and vamp
+    level: 3
+    cue: Switch to ride 16ths
+    detail: Switch to ride 16ths, keep the rest of the groove.
+  - name: Bridge 2
+    level: 4
+    cue: Same, hits on the lyrics
+    detail: Same groove. Hits on "Answer" and "Anything is possible".
+    hot: true
+  - name: Vamp
+    level: 3>1
+    cue: Slow fade down, then swell
+    detail: Slow fade down, then a cymbal swell out into the chorus.
+  - name: Chorus
+    part: Act 3 · Finale
+    level: 0
+    cue: Drums out
+  - name: Interlude
+    level: 0
+    cue: Drums out
+  - name: Post 1
+    level: 0
+    cue: Drums out
+  - name: Post 2
+    level: 0
+    cue: Out – swell into Post 3
+    detail: Drums out, cymbal swell into the next post.
+  - name: Post 3
+    level: 2
+    cue: "Drums in: kick 1, hats 16ths"
+    detail: Kick on 1, hats 16ths.
+  - name: Post 4
+    level: 3
+    cue: 4 on floor, hats 16ths
+  - name: Bridge 1
+    level: 3>5
+    cue: Build – quarter notes, ride
+    detail: Straight build on quarter notes, with ride.
+  - name: Bridge 2
+    level: 5
+    cue: Triplet kick groove
+  - name: End
+    level: 0
+    cue: Drums out
