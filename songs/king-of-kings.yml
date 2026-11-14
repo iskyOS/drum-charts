@@ -1,0 +1,73 @@
+title: King of Kings
+artist: Hillsong Worship
+key: D
+bpm: 68
+time: 4/4
+length: "4:30"
+note: "Play the full song as written. Tag big, end big."
+
+sections:
+  - name: Intro
+    part: Act 1 · Drums out
+    level: 0
+    cue: Drums out
+  - name: V1
+    level: 0
+    cue: Drums out
+  - name: Turn
+    level: 0
+    cue: Out – swell into chorus
+    detail: Drums out, cymbal swell into the chorus.
+  - name: Chorus
+    level: 0
+    cue: Out – swell into turn
+    detail: Drums out, cymbal swell into the turn.
+  - name: Turn
+    part: Act 2 · Tom groove
+    level: 1
+    cue: "Drums in: light ride 16ths"
+    detail: Light 16ths on the ride.
+  - name: V2
+    level: 2
+    cue: Floor tom, kick 1 · 3, snare 4
+    detail: Floor tom beat. Kick 1 · 3, snare on 4.
+  - name: Turn
+    level: 3
+    cue: Same, add 4 on floor
+    detail: Same groove, add 4 on floor.
+  - name: Chorus
+    level: 4
+    cue: Big toms, 4 on floor, snare 4
+    detail: 4 on floor, big tom beat, snare on 4.
+  - name: Turn
+    level: 4
+    cue: Same, add quarter splashes
+    detail: Same groove, add cymbal splashes on quarter notes.
+  - name: V3
+    part: Act 3 · Big finish
+    level: 0>3
+    cue: Out half, then build cymbals
+    detail: Drums out for the first half, then start building loud cymbals.
+    hot: true
+  - name: V4
+    level: 5
+    cue: Big – kick 8ths, tom beat
+    detail: Big. Kick 8ths, tom beat. Snare on 1 · 1a · 4. Crashes on 1 and 4.
+  - name: Turn
+    level: 5
+    cue: Kick 8ths, snare 16ths build
+    detail: Kick 8ths, snare 16ths building into the chorus.
+  - name: Chorus
+    level: 5
+    cue: Ride, anthem kick
+    detail: "Open beat on the ride. Anthem kick: kick 1 · 1a · 3a · 4."
+  - name: Low Chorus
+    level: 5
+    cue: Stay big – don't drop
+    detail: Stay big through the low chorus.
+    hot: true
+  - name: Tag · End
+    level: 5
+    cue: Big, then ring out
+    detail: Tag big, end big, and let it ring out.
+    hot: true
