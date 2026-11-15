@@ -124,8 +124,8 @@ variants:
         detail: Same as V1, then a straight build into the chorus.
       - name: Chorus
         level: 4
-        cue: Snare 16ths, kick 3 · 4 · 1
-        detail: Snare 16ths with triplet accents. Kick 3 · 4 · 1 at the end of every 2nd bar.
+        cue: Ride, snare 16ths
+        detail: Ride, not hats. Snare 16ths with triplet accents. Kick 3 · 4 · 1 at the end of every 2nd bar.
       - name: Post
         level: 4
         cue: Add 4 on floor
@@ -142,8 +142,8 @@ variants:
         detail: 4 on floor, light floor tom beat. Build into the chorus.
       - name: Chorus
         level: 5
-        cue: Big – hats 16ths, 4 on floor
-        detail: Big. Hats 16ths with snare accents, 4 on floor.
+        cue: Big – ride 16ths, 4 on floor
+        detail: Big. Ride 16ths with snare accents, 4 on floor.
       - name: Post
         level: 4
         cue: Keep going, then quiet fill
@@ -168,8 +168,8 @@ variants:
       - name: Chorus
         part: Act 3 · Finale
         level: 4
-        cue: Drums only half, then band in
-        detail: "Drums only for the first half: 4 on floor, snare 16ths. The band comes back in for the second half."
+        cue: Ride, drums only half, band in
+        detail: "Ride, not hats. Drums only for the first half: 4 on floor, snare 16ths. The band comes back in for the second half."
         hot: true
       - name: Post
         level: 5
@@ -199,8 +199,8 @@ variants:
         detail: Same as V1, then a straight build into the chorus.
       - name: Chorus
         level: 4
-        cue: Snare 16ths, then quiet fill
-        detail: Snare 16ths with triplet accents. Kick 3 · 4 · 1 at the end of every 2nd bar. No post – a quiet fill straight into the low bridge.
+        cue: Ride, snare 16ths, quiet fill
+        detail: Ride, not hats. Snare 16ths with triplet accents. Kick 3 · 4 · 1 at the end of every 2nd bar. No post – a quiet fill straight into the low bridge.
         hot: true
       - name: Bridge 1
         part: Act 2 · Bridges
@@ -223,8 +223,8 @@ variants:
       - name: Chorus
         part: Act 3 · Finale
         level: 4
-        cue: Drums only half, then band in
-        detail: "Drums only for the first half: 4 on floor, snare 16ths. The band comes back in for the second half."
+        cue: Ride, drums only half, band in
+        detail: "Ride, not hats. Drums only for the first half: 4 on floor, snare 16ths. The band comes back in for the second half."
         hot: true
       - name: Post
         level: 5
