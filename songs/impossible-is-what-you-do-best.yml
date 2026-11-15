@@ -52,16 +52,17 @@ sections:
     level: 0
     cue: Drums out
   - name: Post 2
-    level: 0
-    cue: Out – swell into Post 3
-    detail: Drums out, cymbal swell into the next post.
+    level: 1
+    cue: "Drums in: ride 8ths"
+    detail: Ride 8ths. Start the build here.
   - name: Post 3
     level: 2
-    cue: "Drums in: kick 1, hats 16ths"
-    detail: Kick on 1, hats 16ths.
+    cue: Add kick 1 · 3
+    detail: Keep ride 8ths, add kick on 1 and 3.
   - name: Post 4
     level: 3
-    cue: 4 on floor, hats 16ths
+    cue: Add 4 on floor, splashes
+    detail: Keep ride 8ths. Kick moves to 4 on floor, and add more cymbal splashes.
   - name: Bridge 1
     level: 3>5
     cue: Build – quarter notes, ride
